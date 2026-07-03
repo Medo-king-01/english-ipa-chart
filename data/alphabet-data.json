@@ -1,0 +1,210 @@
+﻿[
+  {
+    "letter": "A",
+    "audioFile": "alphabet/a.mp3",
+    "letterPhonetic": "/eɪ/",
+    "smallLetter": "a",
+    "sampleWord": "Apple",
+    "wordPhonetic": "/ˈæpəl/"
+  },
+  {
+    "letter": "B",
+    "audioFile": "alphabet/b.mp3",
+    "letterPhonetic": "/biː/",
+    "smallLetter": "b",
+    "sampleWord": "Ball",
+    "wordPhonetic": "/bɔːl/"
+  },
+  {
+    "letter": "C",
+    "audioFile": "alphabet/c.mp3",
+    "letterPhonetic": "/siː/",
+    "smallLetter": "c",
+    "sampleWord": "Cat",
+    "wordPhonetic": "/kæt/"
+  },
+  {
+    "letter": "D",
+    "audioFile": "alphabet/d.mp3",
+    "letterPhonetic": "/diː/",
+    "smallLetter": "d",
+    "sampleWord": "Dog",
+    "wordPhonetic": "/dɔːɡ/"
+  },
+  {
+    "letter": "E",
+    "audioFile": "alphabet/e.mp3",
+    "letterPhonetic": "/iː/",
+    "smallLetter": "e",
+    "sampleWord": "Egg",
+    "wordPhonetic": "/eɡ/"
+  },
+  {
+    "letter": "F",
+    "audioFile": "alphabet/f.mp3",
+    "letterPhonetic": "/ef/",
+    "smallLetter": "f",
+    "sampleWord": "Fish",
+    "wordPhonetic": "/fɪʃ/"
+  },
+  {
+    "letter": "G",
+    "audioFile": "alphabet/g.mp3",
+    "letterPhonetic": "/dʒiː/",
+    "smallLetter": "g",
+    "sampleWord": "Girl",
+    "wordPhonetic": "/ɡɜːrl/"
+  },
+  {
+    "letter": "H",
+    "audioFile": "alphabet/h.mp3",
+    "letterPhonetic": "/eɪtʃ/",
+    "smallLetter": "h",
+    "sampleWord": "Hat",
+    "wordPhonetic": "/hæt/"
+  },
+  {
+    "letter": "I",
+    "audioFile": "alphabet/i.mp3",
+    "letterPhonetic": "/aɪ/",
+    "smallLetter": "i",
+    "sampleWord": "Ice",
+    "wordPhonetic": "/aɪs/"
+  },
+  {
+    "letter": "J",
+    "audioFile": "alphabet/j.mp3",
+    "letterPhonetic": "/dʒeɪ/",
+    "smallLetter": "j",
+    "sampleWord": "Jump",
+    "wordPhonetic": "/dʒʌmp/"
+  },
+  {
+    "letter": "K",
+    "audioFile": "alphabet/k.mp3",
+    "letterPhonetic": "/keɪ/",
+    "smallLetter": "k",
+    "sampleWord": "Key",
+    "wordPhonetic": "/kiː/"
+  },
+  {
+    "letter": "L",
+    "audioFile": "alphabet/l.mp3",
+    "letterPhonetic": "/el/",
+    "smallLetter": "l",
+    "sampleWord": "Lion",
+    "wordPhonetic": "/ˈlaɪən/"
+  },
+  {
+    "letter": "M",
+    "audioFile": "alphabet/m.mp3",
+    "letterPhonetic": "/em/",
+    "smallLetter": "m",
+    "sampleWord": "Moon",
+    "wordPhonetic": "/muːn/"
+  },
+  {
+    "letter": "N",
+    "audioFile": "alphabet/n.mp3",
+    "letterPhonetic": "/en/",
+    "smallLetter": "n",
+    "sampleWord": "Net",
+    "wordPhonetic": "/net/"
+  },
+  {
+    "letter": "O",
+    "audioFile": "alphabet/o.mp3",
+    "letterPhonetic": "/oʊ/",
+    "smallLetter": "o",
+    "sampleWord": "Orange",
+    "wordPhonetic": "/ˈɔːrɪndʒ/"
+  },
+  {
+    "letter": "P",
+    "audioFile": "alphabet/p.mp3",
+    "letterPhonetic": "/piː/",
+    "smallLetter": "p",
+    "sampleWord": "Pen",
+    "wordPhonetic": "/pen/"
+  },
+  {
+    "letter": "Q",
+    "audioFile": "alphabet/q.mp3",
+    "letterPhonetic": "/kjuː/",
+    "smallLetter": "q",
+    "sampleWord": "Queen",
+    "wordPhonetic": "/kwiːn/"
+  },
+  {
+    "letter": "R",
+    "audioFile": "alphabet/r.mp3",
+    "letterPhonetic": "/ɑːr/",
+    "smallLetter": "r",
+    "sampleWord": "Red",
+    "wordPhonetic": "/red/"
+  },
+  {
+    "letter": "S",
+    "audioFile": "alphabet/s.mp3",
+    "letterPhonetic": "/es/",
+    "smallLetter": "s",
+    "sampleWord": "Sun",
+    "wordPhonetic": "/sʌn/"
+  },
+  {
+    "letter": "T",
+    "audioFile": "alphabet/t.mp3",
+    "letterPhonetic": "/tiː/",
+    "smallLetter": "t",
+    "sampleWord": "Tree",
+    "wordPhonetic": "/triː/"
+  },
+  {
+    "letter": "U",
+    "audioFile": "alphabet/u.mp3",
+    "letterPhonetic": "/juː/",
+    "smallLetter": "u",
+    "sampleWord": "Up",
+    "wordPhonetic": "/ʌp/"
+  },
+  {
+    "letter": "V",
+    "audioFile": "alphabet/v.mp3",
+    "letterPhonetic": "/viː/",
+    "smallLetter": "v",
+    "sampleWord": "Van",
+    "wordPhonetic": "/væn/"
+  },
+  {
+    "letter": "W",
+    "audioFile": "alphabet/w.mp3",
+    "letterPhonetic": "/ˈdʌbəljuː/",
+    "smallLetter": "w",
+    "sampleWord": "Water",
+    "wordPhonetic": "/ˈwɔːtər/"
+  },
+  {
+    "letter": "X",
+    "audioFile": "alphabet/x.mp3",
+    "letterPhonetic": "/eks/",
+    "smallLetter": "x",
+    "sampleWord": "Box",
+    "wordPhonetic": "/bɒks/"
+  },
+  {
+    "letter": "Y",
+    "audioFile": "alphabet/y.mp3",
+    "letterPhonetic": "/waɪ/",
+    "smallLetter": "y",
+    "sampleWord": "Yes",
+    "wordPhonetic": "/jes/"
+  },
+  {
+    "letter": "Z",
+    "audioFile": "alphabet/z.mp3",
+    "letterPhonetic": "/ziː/",
+    "smallLetter": "z",
+    "sampleWord": "Zoo",
+    "wordPhonetic": "/zuː/"
+  }
+]

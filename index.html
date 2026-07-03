@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مخطط IPA التفاعلي - الرئيسية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+
+</head>
+<body>
+
+    <canvas id="bgCanvas"></canvas>
+
+    <header class="site-header" id="mainHeader">
+        <div class="logo">
+            <a href="index.html">
+                <span class="logo-brand">English code</span>
+                <span class="logo-badge">AI</span>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="alphabet.html">الأبجدية</a></li>
+                <li><a href="compare.html">المقارنة</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي">🌙</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="mainContent">
+        <div class="intro">
+            <h1>مخطط الأصوات الصوتية الدولية (IPA)</h1>
+            <p>اضغط على أي بطاقة لسماع الصوت. استخدم البحث والتصفية لاستكشاف الأصوات.</p>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number" id="vowelCount">0</div>
+                <div class="stat-label">أصوات العلة (Vowels)</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="consonantCount">0</div>
+                <div class="stat-label">أصوات ساكنة (Consonants)</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="totalCount">0</div>
+                <div class="stat-label">إجمالي الأصوات</div>
+            </div>
+        </div>
+
+        <div class="content-ltr" dir="ltr">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="vowels">Vowels</button>
+                <button class="filter-btn" data-filter="consonants">Consonants</button>
+                <button class="practice-btn" id="practiceBtn">🎯 وضع الممارسة</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by symbol or word...">
+            </div>
+            <div class="cards-grid" id="cardsContainer"></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 English code. جميع الحقوق محفوظة.</p>
+        <p>المؤلف: medo king | <a href="https://wa.me/201277398832" target="_blank" style="color: var(--color-accent); text-decoration: none;">واتساب: 01277398832</a></p>
+        <p style="font-size: 0.8rem; opacity: 0.7;">جميع الملفات الصوتية من مصادر مفتوحة.</p>
+    </footer>
+
+    <div id="detailModal" class="modal-overlay" style="display: none;" role="dialog" aria-modal="true" aria-label="نافذة التفاصيل">
+        <div class="modal-content">
+            <button class="modal-close-btn" id="closeModalBtn" aria-label="إغلاق النافذة">&times;</button>
+            <div id="modalBody" class="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- ترتيب التحميل مهم: config قبل كل شيء، ثم الخدمات المشتركة، ثم منطق الصفحة -->
+    <script src="js/config.js"></script>
+    <script src="js/data-service.js"></script>
+    <script src="js/audio-service.js"></script>
+    <script src="js/theme-service.js"></script>
+    <script src="js/sound-card-factory.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/home-page.js"></script>
+</body>
+</html>

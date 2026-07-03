@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    /* Light Mode (محسّن) */
+    --color-bg: #f5f7fa;
+    --color-card: rgba(255, 255, 255, 0.45);
+    --color-card-solid: #ffffff;
+    --color-accent: #d81b3f;
+    --color-accent-glow: rgba(216, 27, 63, 0.3);
+    --color-gold: #c98b1a;
+    --color-cyan: #0d7a9e;
+    --color-text: #0e0e10;
+    --color-text-secondary: #4a4a52;
+    --color-border: rgba(0, 0, 0, 0.06);
+    --color-shadow: rgba(0, 0, 0, 0.04);
+    --font-display: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-symbols: 'Noto Sans', 'Segoe UI', system-ui, sans-serif;
+    --border-radius: 16px;
+    --transition-speed: 0.25s;
+}
+
+/* Dark Mode (محسّن) */
+[data-theme="dark"] {
+    --color-bg: #090a0f;
+    --color-card: rgba(255, 255, 255, 0.03);
+    --color-card-solid: #12141c;
+    --color-text: #f0f2f7;
+    --color-text-secondary: #8a8e99;
+    --color-border: rgba(255, 255, 255, 0.05);
+    --color-shadow: rgba(0, 0, 0, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-accent) transparent;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position: relative;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-accent);
+    border-radius: 4px;
+    opacity: 0.5;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #b81633;
+}
+
+/* ===== خلفية Canvas ===== */
+/*
+ * شفافة تمامًا عمدًا: particles.js أصبح يرسم "غسلة" شبه شفافة بنفس منطق
+ * الوضع الليلي/النهاري بنفسه (rgba wash داخل الـ Canvas)، فلا حاجة لخلفية
+ * CSS منفصلة هنا قد تتعارض معها أو تُضاعف التعتيم فوق بعضه.
+ */
+#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background: transparent;
+}
+
+/* ===== المحتويات فوق الخلفية ===== */
+header, main, footer, .modal-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+/* ===== انتقال الصفحة ===== */
+::view-transition-old(root) { animation: fadeOut 0.25s ease forwards; }
+::view-transition-new(root) { animation: fadeIn 0.35s ease forwards; }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ===== الهيدر الزجاجي المحسّن ===== */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0.9rem 2.5rem;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(24px) saturate(140%);
+    -webkit-backdrop-filter: blur(24px) saturate(140%);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    gap: 1.5rem;
+}
+
+[data-theme="dark"] .site-header {
+    background: rgba(10, 10, 12, 0.45);
+    border-bottom-color: rgba(255, 255, 255, 0.04);
+}
+
+.site-header.scrolled {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(32px) saturate(160%);
+    box-shadow: 0 4px 30px var(--color-shadow), 0 1px 0 rgba(216, 27, 63, 0.06);
+    padding: 0.7rem 2.5rem;
+}
+
+[data-theme="dark"] .site-header.scrolled {
+    background: rgba(10, 10, 12, 0.92);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5), 0 1px 0 rgba(216, 27, 63, 0.08);
+}
+
+/* ===== الشعار المحسّن ===== */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    position: relative;
+    padding: 0.4rem 0;
+}
+
+.logo-brand {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, var(--color-text) 0%, var(--color-accent) 50%, var(--color-cyan) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.logo a:hover .logo-brand {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+}
+
+.logo-badge {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, var(--color-accent), #b81633);
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(216, 27, 63, 0.25);
+    animation: badgePulse 3s ease-in-out infinite;
+    border: 1px solid rgba(255,255,255,0.15);
+    white-space: nowrap;
+}
+
+@keyframes badgePulse {
+    0%, 100% { box-shadow: 0 2px 8px rgba(216, 27, 63, 0.25); }
+    50% { box-shadow: 0 2px 16px rgba(216, 27, 63, 0.4); }
+}
+
+[data-theme="dark"] .logo-badge {
+    background: linear-gradient(135deg, var(--color-accent), #ff3355);
+}
+
+/* ===== Dark Mode Toggle المحسّن ===== */
+.theme-toggle {
+    background: rgba(0,0,0,0.03);
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    color: var(--color-text-secondary);
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-toggle::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-accent), var(--color-cyan));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.theme-toggle:hover {
+    border-color: transparent;
+    color: #fff;
+    transform: rotate(20deg) scale(1.1);
+    box-shadow: 0 4px 16px rgba(216, 27, 63, 0.2);
+}
+
+.theme-toggle:hover::before {
+    opacity: 1;
+}
+
+/* ===== قائمة التنقل المحسّنة ===== */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    background: rgba(0,0,0,0.02);
+    padding: 0.4rem;
+    border-radius: 16px;
+    border: 1px solid var(--color-border);
+}
+
+[data-theme="dark"] .nav-list {
+    background: rgba(255,255,255,0.03);
+}
+
+.nav-list a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-list a:hover {
+    color: var(--color-text);
+    background: rgba(0,0,0,0.04);
+}
+
+.nav-list a.active {
+    color: #fff;
+    background: linear-gradient(135deg, var(--color-accent), #b81633);
+    box-shadow: 0 4px 12px rgba(216, 27, 63, 0.25);
+    font-weight: 600;
+}
+
+.nav-list a.active:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(216, 27, 63, 0.35);
+}
+
+/* ===== المحتوى الرئيسي ===== */
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+    animation: fadeIn 0.5s ease;
+}
+
+.intro {
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.intro h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: -0.5px;
+    color: var(--color-text);
+    background: linear-gradient(135deg, var(--color-text) 0%, var(--color-accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.intro p {
+    color: var(--color-text-secondary);
+    font-size: 1.05rem;
+}
+
+/* ===== لوحة المعلومات المحسّنة ===== */
+.hero-stats {
+    display: flex;
+    gap: 2.5rem;
+    background: var(--color-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 1.5rem 2.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 8px 32px var(--color-shadow);
+    transition: transform 0.3s ease;
+}
+
+.hero-stats:hover {
+    transform: translateY(-2px);
+}
+
+.stat-item {
+    text-align: center;
+    position: relative;
+    padding: 0 1.5rem;
+}
+
+.stat-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 60%;
+    width: 1px;
+    background: var(--color-border);
+}
+
+.stat-number {
+    font-family: var(--font-display);
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover .stat-number {
+    transform: scale(1.1);
+}
+
+.stat-number#vowelCount { color: var(--color-gold); }
+.stat-number#consonantCount { color: var(--color-cyan); }
+.stat-number#totalCount { color: var(--color-text); }
+
+.stat-label {
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* ===== أزرار التصفية المحسّنة ===== */
+.filter-btn {
+    background: var(--color-card);
+    backdrop-filter: blur(5px);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all var(--transition-speed);
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, transparent, rgba(255,255,255,0.1));
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.filter-btn:hover::before {
+    opacity: 1;
+}
+
+.filter-btn:hover {
+    border-color: var(--color-text-secondary);
+    color: var(--color-text);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px var(--color-accent-glow);
+}
+
+.filter-btn.active[data-filter="all"] {
+    background: var(--color-accent);
+    color: #fff;
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 16px rgba(216, 27, 63, 0.3);
+}
+
+.filter-btn.active[data-filter="vowels"] {
+    background: var(--color-gold);
+    color: #fff;
+    border-color: var(--color-gold);
+    box-shadow: 0 4px 16px rgba(201, 139, 26, 0.3);
+}
+
+.filter-btn.active[data-filter="consonants"] {
+    background: var(--color-cyan);
+    color: #fff;
+    border-color: var(--color-cyan);
+    box-shadow: 0 4px 16px rgba(13, 122, 158, 0.3);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+/* ===== البحث المحسّن ===== */
+.search-bar {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.9rem 1.5rem 0.9rem 2.8rem;
+    background: var(--color-card);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--color-border);
+    border-radius: 40px;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.search-bar::before {
+    content: '🔍';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+    font-size: 0.9rem;
+}
+
+.search-bar input:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 4px rgba(216, 27, 63, 0.08), 0 4px 12px rgba(216, 27, 63, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="dark"] .search-bar input:focus {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* ===== Toast Notifications ===== */
+.toast-container {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    pointer-events: none;
+}
+
+.toast {
+    background: var(--color-card);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--color-border);
+    padding: 0.8rem 1.5rem;
+    border-radius: 40px;
+    box-shadow: 0 8px 32px var(--color-shadow);
+    font-size: 0.9rem;
+    color: var(--color-text);
+    animation: toastIn 0.3s ease, toastOut 0.3s ease 2.7s forwards;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    pointer-events: auto;
+}
+
+@keyframes toastIn {
+    from { opacity: 0; transform: translateY(20px) scale(0.9); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes toastOut {
+    to { opacity: 0; transform: translateY(-20px) scale(0.9); }
+}
+
+/* ===== التذييل ===== */
+.site-footer {
+    background: var(--color-card);
+    backdrop-filter: blur(8px);
+    padding: 1.2rem 2rem;
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--color-border);
+    margin-top: auto;
+}
+
+/* ===== Loading Skeleton ===== */
+.skeleton {
+    background: linear-gradient(90deg, var(--color-border) 25%, rgba(255,255,255,0.5) 50%, var(--color-border) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--border-radius);
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ===== استجابة الجوال ===== */
+@media (max-width: 640px) {
+    .site-header { padding: 0.6rem 1rem; flex-wrap: wrap; gap: 0.5rem; }
+    .nav-list { gap: 1rem; font-size: 0.85rem; }
+    main { padding: 1rem; }
+    .intro h1 { font-size: 1.8rem; }
+    .hero-stats { padding: 1rem; gap: 1.2rem; }
+    .stat-number { font-size: 2rem; }
+    .stat-item:not(:last-child)::after { display: none; }
+
+    .theme-toggle { margin-right: 0.5rem; width: 32px; height: 32px; }
+}

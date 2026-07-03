@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقارنة الأصوات | مخطط IPA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+
+    <header class="site-header">
+        <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي">🌙</button>
+        <div class="logo">
+            <a href="index.html">
+                <span class="logo-brand">English code</span>
+                <span class="logo-badge">AI</span>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="alphabet.html">الأبجدية</a></li>
+                <li><a href="compare.html" class="active">المقارنة</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <h1>مقارنة الأصوات</h1>
+            <p>اختر صوتين من القائمتين لمشاهدة الفرق بينهما وسماعهما.</p>
+        </div>
+
+        <div class="content-ltr" dir="ltr">
+            <div class="compare-controls">
+                <select id="sound1Select" class="sound-select"></select>
+                <span class="vs-text">VS</span>
+                <select id="sound2Select" class="sound-select"></select>
+            </div>
+            <div id="comparisonContainer" class="comparison-container"></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 English code. جميع الحقوق محفوظة.</p>
+        <p>المؤلف: medo king | <a href="https://wa.me/201277398832" target="_blank" style="color: var(--color-accent); text-decoration: none;">واتساب: 01277398832</a></p>
+        <p style="font-size: 0.8rem; opacity: 0.7;">جميع الملفات الصوتية من مصادر مفتوحة.</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/data-service.js"></script>
+    <script src="js/audio-service.js"></script>
+    <script src="js/theme-service.js"></script>
+    <script src="js/sound-card-factory.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/compare-page.js"></script>
+</body>
+</html>

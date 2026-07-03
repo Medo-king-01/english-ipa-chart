@@ -1,0 +1,1190 @@
+﻿[
+  {
+    "id": 1,
+    "symbol": "i:",
+    "audioFile": "ipa/sound_i.mp3",
+    "words": [
+      {
+        "word": "see",
+        "audioFile": "ipa-samples/see.mp3"
+      },
+      {
+        "word": "agree",
+        "audioFile": "ipa-samples/agree.mp3"
+      },
+      {
+        "word": "eat",
+        "audioFile": "ipa-samples/eat.mp3"
+      },
+      {
+        "word": "seat",
+        "audioFile": "ipa-samples/seat.mp3"
+      },
+      {
+        "word": "team",
+        "audioFile": "ipa-samples/team.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im1.webp"
+  },
+  {
+    "id": 2,
+    "symbol": "I",
+    "audioFile": "ipa/sound_short_i.mp3",
+    "words": [
+      {
+        "word": "if",
+        "audioFile": "ipa-samples/if.mp3"
+      },
+      {
+        "word": "listen",
+        "audioFile": "ipa-samples/listen.mp3"
+      },
+      {
+        "word": "miss",
+        "audioFile": "ipa-samples/miss.mp3"
+      },
+      {
+        "word": "dinner",
+        "audioFile": "ipa-samples/dinner.mp3"
+      },
+      {
+        "word": "swim",
+        "audioFile": "ipa-samples/swim.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im2.webp"
+  },
+  {
+    "id": 3,
+    "symbol": "u:",
+    "audioFile": "ipa/sound_long_u.mp3",
+    "words": [
+      {
+        "word": "too",
+        "audioFile": "ipa-samples/too.mp3"
+      },
+      {
+        "word": "group",
+        "audioFile": "ipa-samples/group.mp3"
+      },
+      {
+        "word": "shoe",
+        "audioFile": "ipa-samples/shoe.mp3"
+      },
+      {
+        "word": "blue",
+        "audioFile": "ipa-samples/blue.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im3.webp"
+  },
+  {
+    "id": 4,
+    "symbol": "u",
+    "audioFile": "ipa/sound_u.mp3",
+    "words": [
+      {
+        "word": "full",
+        "audioFile": "ipa-samples/full.mp3"
+      },
+      {
+        "word": "sugar",
+        "audioFile": "ipa-samples/sugar.mp3"
+      },
+      {
+        "word": "book",
+        "audioFile": "ipa-samples/book.mp3"
+      },
+      {
+        "word": "foot",
+        "audioFile": "ipa-samples/foot.mp3"
+      },
+      {
+        "word": "would",
+        "audioFile": "ipa-samples/would.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im4.webp"
+  },
+  {
+    "id": 5,
+    "symbol": "ə",
+    "audioFile": "ipa/sound_ə.mp3",
+    "words": [
+      {
+        "word": "ago",
+        "audioFile": "ipa-samples/ago.mp3"
+      },
+      {
+        "word": "again",
+        "audioFile": "ipa-samples/again.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im5.webp"
+  },
+  {
+    "id": 6,
+    "symbol": "ɜː",
+    "audioFile": "ipa/sound_long_ə.mp3",
+    "words": [
+      {
+        "word": "bird",
+        "audioFile": "ipa-samples/bird.mp3"
+      },
+      {
+        "word": "word",
+        "audioFile": "ipa-samples/word.mp3"
+      },
+      {
+        "word": "turn",
+        "audioFile": "ipa-samples/turn.mp3"
+      },
+      {
+        "word": "journey",
+        "audioFile": "ipa-samples/journey.mp3"
+      },
+      {
+        "word": "early",
+        "audioFile": "ipa-samples/early.mp3"
+      },
+      {
+        "word": "service",
+        "audioFile": "ipa-samples/service.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im6.webp"
+  },
+  {
+    "id": 7,
+    "symbol": "ɔ:",
+    "audioFile": "ipa/sound_long_ɔ.mp3",
+    "words": [
+      {
+        "word": "ball",
+        "audioFile": "ipa-samples/ball.mp3"
+      },
+      {
+        "word": "talk",
+        "audioFile": "ipa-samples/talk.mp3"
+      },
+      {
+        "word": "autumn",
+        "audioFile": "ipa-samples/autumn.mp3"
+      },
+      {
+        "word": "saw",
+        "audioFile": "ipa-samples/saw.mp3"
+      },
+      {
+        "word": "caught",
+        "audioFile": "ipa-samples/caught.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im7.webp"
+  },
+  {
+    "id": 8,
+    "symbol": "e",
+    "audioFile": "ipa/sound_e.mp3",
+    "words": [
+      {
+        "word": "check",
+        "audioFile": "ipa-samples/check.mp3"
+      },
+      {
+        "word": "leg",
+        "audioFile": "ipa-samples/leg.mp3"
+      },
+      {
+        "word": "bread",
+        "audioFile": "ipa-samples/bread.mp3"
+      },
+      {
+        "word": "friend",
+        "audioFile": "ipa-samples/friend.mp3"
+      },
+      {
+        "word": "any",
+        "audioFile": "ipa-samples/any.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im8.webp"
+  },
+  {
+    "id": 9,
+    "symbol": "eə",
+    "audioFile": "ipa/sound_long_e.mp3",
+    "words": [
+      {
+        "word": "care",
+        "audioFile": "ipa-samples/care.mp3"
+      },
+      {
+        "word": "chair",
+        "audioFile": "ipa-samples/chair.mp3"
+      },
+      {
+        "word": "wear",
+        "audioFile": "ipa-samples/wear.mp3"
+      },
+      {
+        "word": "where",
+        "audioFile": "ipa-samples/where.mp3"
+      }
+    ],
+    "guideImage": null
+  },
+  {
+    "id": 10,
+    "symbol": "ʌ",
+    "audioFile": "ipa/sound_ʌ.mp3",
+    "words": [
+      {
+        "word": "bus",
+        "audioFile": "ipa-samples/bus.mp3"
+      },
+      {
+        "word": "colour",
+        "audioFile": "ipa-samples/colour.mp3"
+      },
+      {
+        "word": "come",
+        "audioFile": "ipa-samples/come.mp3"
+      },
+      {
+        "word": "cup",
+        "audioFile": "ipa-samples/cup.mp3"
+      },
+      {
+        "word": "front",
+        "audioFile": "ipa-samples/front.mp3"
+      },
+      {
+        "word": "monday",
+        "audioFile": "ipa-samples/monday.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im10.webp"
+  },
+  {
+    "id": 11,
+    "symbol": "ɒ",
+    "audioFile": "ipa/sound_ɒ.mp3",
+    "words": [
+      {
+        "word": "bottle",
+        "audioFile": "ipa-samples/bottle.mp3"
+      },
+      {
+        "word": "box",
+        "audioFile": "ipa-samples/box.mp3"
+      },
+      {
+        "word": "chocolate",
+        "audioFile": "ipa-samples/chocolate.mp3"
+      },
+      {
+        "word": "clock",
+        "audioFile": "ipa-samples/clock.mp3"
+      },
+      {
+        "word": "coffee",
+        "audioFile": "ipa-samples/coffee.mp3"
+      },
+      {
+        "word": "copy",
+        "audioFile": "ipa-samples/copy.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im11.webp"
+  },
+  {
+    "id": 12,
+    "symbol": "æ",
+    "audioFile": "ipa/sound_æ.mp3",
+    "words": [
+      {
+        "word": "back",
+        "audioFile": "ipa-samples/back.mp3"
+      },
+      {
+        "word": "camera",
+        "audioFile": "ipa-samples/camera.mp3"
+      },
+      {
+        "word": "factory",
+        "audioFile": "ipa-samples/factory.mp3"
+      },
+      {
+        "word": "hat",
+        "audioFile": "ipa-samples/hat.mp3"
+      },
+      {
+        "word": "jam",
+        "audioFile": "ipa-samples/jam.mp3"
+      },
+      {
+        "word": "manager",
+        "audioFile": "ipa-samples/manager.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im12.webp"
+  },
+  {
+    "id": 13,
+    "symbol": "ɑ:",
+    "audioFile": "ipa/sound_long_ɑ.mp3",
+    "words": [
+      {
+        "word": "after",
+        "audioFile": "ipa-samples/after.mp3"
+      },
+      {
+        "word": "afternoon",
+        "audioFile": "ipa-samples/afternoon.mp3"
+      },
+      {
+        "word": "ask",
+        "audioFile": "ipa-samples/ask.mp3"
+      },
+      {
+        "word": "answer",
+        "audioFile": "ipa-samples/answer.mp3"
+      },
+      {
+        "word": "bath",
+        "audioFile": "ipa-samples/bath.mp3"
+      },
+      {
+        "word": "bathroom",
+        "audioFile": "ipa-samples/bathroom.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im13.webp"
+  },
+  {
+    "id": 14,
+    "symbol": "ɪə",
+    "audioFile": "ipa/sound_ɪə.mp3",
+    "words": [
+      {
+        "word": "real",
+        "audioFile": "ipa-samples/real.mp3"
+      },
+      {
+        "word": "beard",
+        "audioFile": "ipa-samples/beard.mp3"
+      },
+      {
+        "word": "clear",
+        "audioFile": "ipa-samples/clear.mp3"
+      },
+      {
+        "word": "cheers",
+        "audioFile": "ipa-samples/cheers.mp3"
+      },
+      {
+        "word": "here",
+        "audioFile": "ipa-samples/here.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im14.webp"
+  },
+  {
+    "id": 15,
+    "symbol": "eɪ",
+    "audioFile": "ipa/sound_eɪ.mp3",
+    "words": [
+      {
+        "word": "age",
+        "audioFile": "ipa-samples/age.mp3"
+      },
+      {
+        "word": "rain",
+        "audioFile": "ipa-samples/rain.mp3"
+      },
+      {
+        "word": "day",
+        "audioFile": "ipa-samples/day.mp3"
+      },
+      {
+        "word": "grey",
+        "audioFile": "ipa-samples/grey.mp3"
+      },
+      {
+        "word": "break",
+        "audioFile": "ipa-samples/break.mp3"
+      },
+      {
+        "word": "eight",
+        "audioFile": "ipa-samples/eight.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im15.webp"
+  },
+  {
+    "id": 16,
+    "symbol": "aʊ",
+    "audioFile": "ipa/sound_aʊ.mp3",
+    "words": [
+      {
+        "word": "how",
+        "audioFile": "ipa-samples/how.mp3"
+      },
+      {
+        "word": "now",
+        "audioFile": "ipa-samples/now.mp3"
+      },
+      {
+        "word": "vowel",
+        "audioFile": "ipa-samples/vowel.mp3"
+      },
+      {
+        "word": "mouth",
+        "audioFile": "ipa-samples/mouth.mp3"
+      },
+      {
+        "word": "sound",
+        "audioFile": "ipa-samples/sound.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im16.webp"
+  },
+  {
+    "id": 17,
+    "symbol": "əʊ",
+    "audioFile": "ipa/sound_əʊ.mp3",
+    "words": [
+      {
+        "word": "cold",
+        "audioFile": "ipa-samples/cold.mp3"
+      },
+      {
+        "word": "post",
+        "audioFile": "ipa-samples/post.mp3"
+      },
+      {
+        "word": "know",
+        "audioFile": "ipa-samples/know.mp3"
+      },
+      {
+        "word": "boat",
+        "audioFile": "ipa-samples/boat.mp3"
+      },
+      {
+        "word": "toe",
+        "audioFile": "ipa-samples/toe.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im17.webp"
+  },
+  {
+    "id": 18,
+    "symbol": "aɪ",
+    "audioFile": "ipa/sound_aɪ.mp3",
+    "words": [
+      {
+        "word": "like",
+        "audioFile": "ipa-samples/like.mp3"
+      },
+      {
+        "word": "die",
+        "audioFile": "ipa-samples/die.mp3"
+      },
+      {
+        "word": "dry",
+        "audioFile": "ipa-samples/dry.mp3"
+      },
+      {
+        "word": "high",
+        "audioFile": "ipa-samples/high.mp3"
+      },
+      {
+        "word": "buy",
+        "audioFile": "ipa-samples/buy.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im18.webp"
+  },
+  {
+    "id": 19,
+    "symbol": "ʊə",
+    "audioFile": "ipa/sound_ʊə.mp3",
+    "words": [
+      {
+        "word": "curious",
+        "audioFile": "ipa-samples/curious.mp3"
+      }
+    ],
+    "guideImage": null
+  },
+  {
+    "id": 20,
+    "symbol": "ɔɪ",
+    "audioFile": "ipa/sound_ɔɪ.mp3",
+    "words": [
+      {
+        "word": "coin",
+        "audioFile": "ipa-samples/coin.mp3"
+      },
+      {
+        "word": "point",
+        "audioFile": "ipa-samples/point.mp3"
+      },
+      {
+        "word": "voice",
+        "audioFile": "ipa-samples/voice.mp3"
+      },
+      {
+        "word": "boy",
+        "audioFile": "ipa-samples/boy.mp3"
+      },
+      {
+        "word": "enjoy",
+        "audioFile": "ipa-samples/enjoy.mp3"
+      },
+      {
+        "word": "toy",
+        "audioFile": "ipa-samples/toy.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im18.webp"
+  },
+  {
+    "id": 21,
+    "symbol": "f",
+    "audioFile": "ipa/sound_f.mp3",
+    "words": [
+      {
+        "word": "feel",
+        "audioFile": "ipa-samples/feel.mp3"
+      },
+      {
+        "word": "off",
+        "audioFile": "ipa-samples/off.mp3"
+      },
+      {
+        "word": "coffee",
+        "audioFile": "ipa-samples/coffee.mp3"
+      },
+      {
+        "word": "phone",
+        "audioFile": "ipa-samples/phone.mp3"
+      },
+      {
+        "word": "laugh",
+        "audioFile": "ipa-samples/laugh.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im21.webp"
+  },
+  {
+    "id": 22,
+    "symbol": "v",
+    "audioFile": "ipa/sound_v.mp3",
+    "words": [
+      {
+        "word": "very",
+        "audioFile": "ipa-samples/very.mp3"
+      },
+      {
+        "word": "travel",
+        "audioFile": "ipa-samples/travel.mp3"
+      },
+      {
+        "word": "every",
+        "audioFile": "ipa-samples/every.mp3"
+      },
+      {
+        "word": "have",
+        "audioFile": "ipa-samples/have.mp3"
+      },
+      {
+        "word": "leave",
+        "audioFile": "ipa-samples/leave.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im22.webp"
+  },
+  {
+    "id": 23,
+    "symbol": "θ",
+    "audioFile": "ipa/sound_θ.mp3",
+    "words": [
+      {
+        "word": "thin",
+        "audioFile": "ipa-samples/thin.mp3"
+      },
+      {
+        "word": "month",
+        "audioFile": "ipa-samples/month.mp3"
+      },
+      {
+        "word": "thanks",
+        "audioFile": "ipa-samples/thanks.mp3"
+      },
+      {
+        "word": "thirty",
+        "audioFile": "ipa-samples/thirty.mp3"
+      },
+      {
+        "word": "south",
+        "audioFile": "ipa-samples/south.mp3"
+      },
+      {
+        "word": "birthday",
+        "audioFile": "ipa-samples/birthday.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im23.webp"
+  },
+  {
+    "id": 24,
+    "symbol": "ð",
+    "audioFile": "ipa/sound_ð.mp3",
+    "words": [
+      {
+        "word": "this",
+        "audioFile": "ipa-samples/this.mp3"
+      },
+      {
+        "word": "that",
+        "audioFile": "ipa-samples/that.mp3"
+      },
+      {
+        "word": "brother",
+        "audioFile": "ipa-samples/brother.mp3"
+      },
+      {
+        "word": "together",
+        "audioFile": "ipa-samples/together.mp3"
+      },
+      {
+        "word": "weather",
+        "audioFile": "ipa-samples/weather.mp3"
+      },
+      {
+        "word": "without",
+        "audioFile": "ipa-samples/without.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im24.webp"
+  },
+  {
+    "id": 25,
+    "symbol": "s",
+    "audioFile": "ipa/sound_S.mp3",
+    "words": [
+      {
+        "word": "sister",
+        "audioFile": "ipa-samples/sister.mp3"
+      },
+      {
+        "word": "class",
+        "audioFile": "ipa-samples/class.mp3"
+      },
+      {
+        "word": "glasses",
+        "audioFile": "ipa-samples/glasses.mp3"
+      },
+      {
+        "word": "city",
+        "audioFile": "ipa-samples/city.mp3"
+      },
+      {
+        "word": "science",
+        "audioFile": "ipa-samples/science.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im25.webp"
+  },
+  {
+    "id": 26,
+    "symbol": "z",
+    "audioFile": "ipa/sound_Z.mp3",
+    "words": [
+      {
+        "word": "gives",
+        "audioFile": "ipa-samples/gives.mp3"
+      },
+      {
+        "word": "husband",
+        "audioFile": "ipa-samples/husband.mp3"
+      },
+      {
+        "word": "zero",
+        "audioFile": "ipa-samples/zero.mp3"
+      },
+      {
+        "word": "scissors",
+        "audioFile": "ipa-samples/scissors.mp3"
+      },
+      {
+        "word": "jazz",
+        "audioFile": "ipa-samples/jazz.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im26.webp"
+  },
+  {
+    "id": 27,
+    "symbol": "ʃ",
+    "audioFile": "ipa/sound_ʃ.mp3",
+    "words": [
+      {
+        "word": "shop",
+        "audioFile": "ipa-samples/shop.mp3"
+      },
+      {
+        "word": "fashion",
+        "audioFile": "ipa-samples/fashion.mp3"
+      },
+      {
+        "word": "cash",
+        "audioFile": "ipa-samples/cash.mp3"
+      },
+      {
+        "word": "fresh",
+        "audioFile": "ipa-samples/fresh.mp3"
+      },
+      {
+        "word": "wash",
+        "audioFile": "ipa-samples/wash.mp3"
+      },
+      {
+        "word": "mushroom",
+        "audioFile": "ipa-samples/mushroom.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im27.webp"
+  },
+  {
+    "id": 28,
+    "symbol": "ʒ",
+    "audioFile": "ipa/sound_ʒ.mp3",
+    "words": [
+      {
+        "word": "television",
+        "audioFile": "ipa-samples/television.mp3"
+      },
+      {
+        "word": "asia",
+        "audioFile": "ipa-samples/asia.mp3"
+      },
+      {
+        "word": "usually",
+        "audioFile": "ipa-samples/usually.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im28.webp"
+  },
+  {
+    "id": 29,
+    "symbol": "h",
+    "audioFile": "ipa/sound_h.mp3",
+    "words": [
+      {
+        "word": "how",
+        "audioFile": "ipa-samples/how.mp3"
+      },
+      {
+        "word": "hat",
+        "audioFile": "ipa-samples/hat.mp3"
+      },
+      {
+        "word": "here",
+        "audioFile": "ipa-samples/here.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im29.webp"
+  },
+  {
+    "id": 30,
+    "symbol": "p",
+    "audioFile": "ipa/sound_p.mp3",
+    "words": [
+      {
+        "word": "pen",
+        "audioFile": "ipa-samples/pen.mp3"
+      },
+      {
+        "word": "push",
+        "audioFile": "ipa-samples/push.mp3"
+      },
+      {
+        "word": "stop",
+        "audioFile": "ipa-samples/stop.mp3"
+      },
+      {
+        "word": "happy",
+        "audioFile": "ipa-samples/happy.mp3"
+      },
+      {
+        "word": "stopping",
+        "audioFile": "ipa-samples/stopping.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im30.webp"
+  },
+  {
+    "id": 31,
+    "symbol": "b",
+    "audioFile": "ipa/sound_b.mp3",
+    "words": [
+      {
+        "word": "big",
+        "audioFile": "ipa-samples/big.mp3"
+      },
+      {
+        "word": "best",
+        "audioFile": "ipa-samples/best.mp3"
+      },
+      {
+        "word": "rob",
+        "audioFile": "ipa-samples/rob.mp3"
+      },
+      {
+        "word": "robber",
+        "audioFile": "ipa-samples/robber.mp3"
+      },
+      {
+        "word": "verb",
+        "audioFile": "ipa-samples/verb.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im31.webp"
+  },
+  {
+    "id": 32,
+    "symbol": "t",
+    "audioFile": "ipa/sound_t.mp3",
+    "words": [
+      {
+        "word": "bottle",
+        "audioFile": "ipa-samples/bottle.mp3"
+      },
+      {
+        "word": "tea",
+        "audioFile": "ipa-samples/tea.mp3"
+      },
+      {
+        "word": "water",
+        "audioFile": "ipa-samples/water.mp3"
+      },
+      {
+        "word": "eat",
+        "audioFile": "ipa-samples/eat.mp3"
+      },
+      {
+        "word": "eight",
+        "audioFile": "ipa-samples/eight.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im32.webp"
+  },
+  {
+    "id": 33,
+    "symbol": "d",
+    "audioFile": "ipa/sound_d.mp3",
+    "words": [
+      {
+        "word": "day",
+        "audioFile": "ipa-samples/day.mp3"
+      },
+      {
+        "word": "food",
+        "audioFile": "ipa-samples/food.mp3"
+      },
+      {
+        "word": "good",
+        "audioFile": "ipa-samples/good.mp3"
+      },
+      {
+        "word": "address",
+        "audioFile": "ipa-samples/address.mp3"
+      },
+      {
+        "word": "ladder",
+        "audioFile": "ipa-samples/ladder.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im33.webp"
+  },
+  {
+    "id": 34,
+    "symbol": "k",
+    "audioFile": "ipa/sound_k.mp3",
+    "words": [
+      {
+        "word": "car",
+        "audioFile": "ipa-samples/car.mp3"
+      },
+      {
+        "word": "cat",
+        "audioFile": "ipa-samples/cat.mp3"
+      },
+      {
+        "word": "black",
+        "audioFile": "ipa-samples/black.mp3"
+      },
+      {
+        "word": "keep",
+        "audioFile": "ipa-samples/keep.mp3"
+      },
+      {
+        "word": "school",
+        "audioFile": "ipa-samples/school.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im34.webp"
+  },
+  {
+    "id": 35,
+    "symbol": "g",
+    "audioFile": "ipa/sound_g.mp3",
+    "words": [
+      {
+        "word": "garden",
+        "audioFile": "ipa-samples/garden.mp3"
+      },
+      {
+        "word": "ago",
+        "audioFile": "ipa-samples/ago.mp3"
+      },
+      {
+        "word": "girl",
+        "audioFile": "ipa-samples/girl.mp3"
+      },
+      {
+        "word": "glass",
+        "audioFile": "ipa-samples/glass.mp3"
+      },
+      {
+        "word": "gold",
+        "audioFile": "ipa-samples/gold.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im35.webp"
+  },
+  {
+    "id": 36,
+    "symbol": "ʧ",
+    "audioFile": "ipa/sound_ʧ.mp3",
+    "words": [
+      {
+        "word": "chips",
+        "audioFile": "ipa-samples/chips.mp3"
+      },
+      {
+        "word": "choose",
+        "audioFile": "ipa-samples/choose.mp3"
+      },
+      {
+        "word": "future",
+        "audioFile": "ipa-samples/future.mp3"
+      },
+      {
+        "word": "question",
+        "audioFile": "ipa-samples/question.mp3"
+      },
+      {
+        "word": "catch",
+        "audioFile": "ipa-samples/catch.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im36.webp"
+  },
+  {
+    "id": 37,
+    "symbol": "ʤ",
+    "audioFile": "ipa/sound_ʤ.mp3",
+    "words": [
+      {
+        "word": "jam",
+        "audioFile": "ipa-samples/jam.mp3"
+      },
+      {
+        "word": "jacket",
+        "audioFile": "ipa-samples/jacket.mp3"
+      },
+      {
+        "word": "general",
+        "audioFile": "ipa-samples/general.mp3"
+      },
+      {
+        "word": "age",
+        "audioFile": "ipa-samples/age.mp3"
+      },
+      {
+        "word": "fridge",
+        "audioFile": "ipa-samples/fridge.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im37.webp"
+  },
+  {
+    "id": 38,
+    "symbol": "w",
+    "audioFile": "ipa/sound_w.mp3",
+    "words": [
+      {
+        "word": "week",
+        "audioFile": "ipa-samples/week.mp3"
+      },
+      {
+        "word": "weather",
+        "audioFile": "ipa-samples/weather.mp3"
+      },
+      {
+        "word": "what",
+        "audioFile": "ipa-samples/what.mp3"
+      },
+      {
+        "word": "white",
+        "audioFile": "ipa-samples/white.mp3"
+      },
+      {
+        "word": "question",
+        "audioFile": "ipa-samples/question.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im38.webp"
+  },
+  {
+    "id": 39,
+    "symbol": "r",
+    "audioFile": "ipa/sound_r.mp3",
+    "words": [
+      {
+        "word": "red",
+        "audioFile": "ipa-samples/red.mp3"
+      },
+      {
+        "word": "ready",
+        "audioFile": "ipa-samples/ready.mp3"
+      },
+      {
+        "word": "sorry",
+        "audioFile": "ipa-samples/sorry.mp3"
+      },
+      {
+        "word": "write",
+        "audioFile": "ipa-samples/write.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im39.webp"
+  },
+  {
+    "id": 40,
+    "symbol": "j",
+    "audioFile": "ipa/sound_j.mp3",
+    "words": [
+      {
+        "word": "yesterday",
+        "audioFile": "ipa-samples/yesterday.mp3"
+      },
+      {
+        "word": "year",
+        "audioFile": "ipa-samples/year.mp3"
+      },
+      {
+        "word": "new",
+        "audioFile": "ipa-samples/new.mp3"
+      },
+      {
+        "word": "interview",
+        "audioFile": "ipa-samples/interview.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im40.webp"
+  },
+  {
+    "id": 41,
+    "symbol": "l",
+    "audioFile": "ipa/sound_l.mp3",
+    "words": [
+      {
+        "word": "leave",
+        "audioFile": "ipa-samples/leave.mp3"
+      },
+      {
+        "word": "feel",
+        "audioFile": "ipa-samples/feel.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im41.webp"
+  },
+  {
+    "id": 42,
+    "symbol": "m",
+    "audioFile": "ipa/sound_m.mp3",
+    "words": [
+      {
+        "word": "more",
+        "audioFile": "ipa-samples/more.mp3"
+      },
+      {
+        "word": "lemon",
+        "audioFile": "ipa-samples/lemon.mp3"
+      },
+      {
+        "word": "swim",
+        "audioFile": "ipa-samples/swim.mp3"
+      },
+      {
+        "word": "summer",
+        "audioFile": "ipa-samples/summer.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im42.webp"
+  },
+  {
+    "id": 43,
+    "symbol": "n",
+    "audioFile": "ipa/sound_n.mp3",
+    "words": [
+      {
+        "word": "new",
+        "audioFile": "ipa-samples/new.mp3"
+      },
+      {
+        "word": "now",
+        "audioFile": "ipa-samples/now.mp3"
+      },
+      {
+        "word": "dinner",
+        "audioFile": "ipa-samples/dinner.mp3"
+      },
+      {
+        "word": "know",
+        "audioFile": "ipa-samples/know.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im43.webp"
+  },
+  {
+    "id": 44,
+    "symbol": "ŋ",
+    "audioFile": "ipa/sound_ŋ.mp3",
+    "words": [
+      {
+        "word": "thanks",
+        "audioFile": "ipa-samples/thanks.mp3"
+      },
+      {
+        "word": "evening",
+        "audioFile": "ipa-samples/evening.mp3"
+      },
+      {
+        "word": "long",
+        "audioFile": "ipa-samples/long.mp3"
+      },
+      {
+        "word": "thing",
+        "audioFile": "ipa-samples/thing.mp3"
+      }
+    ],
+    "guideImage": "ipa-guides/im44.webp"
+  }
+]
