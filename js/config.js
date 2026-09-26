@@ -16,6 +16,7 @@ const CONFIG = Object.freeze({
         ipaWords: 'data/ipa-words.json',
         ipaDescriptions: 'data/ipa-descriptions.json',
         compareData: 'data/compare-data.json',
+        sentencesData: 'data/sentences-data.json',
         audioDir: 'assets/audio/',
         imagesDir: 'assets/images/',
     },

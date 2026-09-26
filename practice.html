@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الممارسة والتعلم | English Code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/practice.css">
+</head>
+<body>
+
+<canvas id="bgCanvas"></canvas>
+
+<header class="site-header" id="mainHeader">
+    <div class="logo">
+        <a href="index.html">
+            <span class="logo-brand">English code</span>
+            <span class="logo-badge">AI</span>
+        </a>
+    </div>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="alphabet.html">الأبجدية</a></li>
+            <li><a href="compare.html">المقارنة</a></li>
+            <li><a href="practice.html" class="active">الممارسة</a></li>
+        </ul>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي">🌙</button>
+</header>
+
+<main>
+    <div class="intro">
+        <h1>الممارسة والتعلم</h1>
+        <p>اختر المستوى والوضع المناسب لك، أو تابع تقدمك.</p>
+    </div>
+
+    <!-- إحصائيات سريعة -->
+    <div class="progress-dashboard" id="progressDashboard">
+        <div class="stat-item">
+            <div class="stat-number" id="dashAccuracy">0%</div>
+            <div class="stat-label">الدقة الكلية</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="dashStreak">0</div>
+            <div class="stat-label">سلسلة صحيحة</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="dashBest">0</div>
+            <div class="stat-label">أفضل سلسلة</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="dashMastered">0</div>
+            <div class="stat-label">أصوات متقنة</div>
+        </div>
+    </div>
+
+    <!-- تبويبات المستويات -->
+    <div class="practice-tabs">
+        <button class="practice-tab active" data-level="beginner">
+            <span class="tab-icon">🌱</span>
+            <span class="tab-label">مبتدئ</span>
+            <span class="tab-progress" id="tabProgress-beginner"></span>
+        </button>
+        <button class="practice-tab" data-level="intermediate">
+            <span class="tab-icon">📈</span>
+            <span class="tab-label">متوسط</span>
+            <span class="tab-progress" id="tabProgress-intermediate"></span>
+        </button>
+        <button class="practice-tab" data-level="advanced">
+            <span class="tab-icon">🎯</span>
+            <span class="tab-label">متقدم</span>
+            <span class="tab-progress" id="tabProgress-advanced"></span>
+        </button>
+    </div>
+
+    <!-- أوضاع الممارسة -->
+    <div class="mode-selector">
+        <h3>اختر وضع الممارسة:</h3>
+        <div class="mode-buttons">
+            <button class="mode-btn active" data-mode="multiple_choice">
+                <span class="mode-icon">📋</span>
+                <span class="mode-name">اختيار من متعدد</span>
+                <span class="mode-desc">استمع واختر الرمز الصحيح من 4 خيارات</span>
+            </button>
+            <button class="mode-btn" data-mode="type_symbol">
+                <span class="mode-icon">✍️</span>
+                <span class="mode-name">اكتب الرمز</span>
+                <span class="mode-desc">استمع واكتب رمز IPA الصحيح</span>
+            </button>
+            <button class="mode-btn" data-mode="hear_word">
+                <span class="mode-icon">🔊</span>
+                <span class="mode-name">استمع للكلمة</span>
+                <span class="mode-desc">استمع لكلمة واختر الصوت الصحيح</span>
+            </button>
+            <button class="mode-btn" data-mode="similar_sounds">
+                <span class="mode-icon">🆚</span>
+                <span class="mode-name">أصوات متشابهة</span>
+                <span class="mode-desc">تمييز بين صوتين متشابهين فقط</span>
+            </button>
+            <button class="mode-btn" data-mode="memory_game">
+                <span class="mode-icon">🎮</span>
+                <span class="mode-name">لعبة الذاكرة</span>
+                <span class="mode-desc">4 بطاقات + صوت + وقت محدد</span>
+            </button>
+            <button class="mode-btn" data-mode="speaking">
+                <span class="mode-icon">🎙️</span>
+                <span class="mode-name">اختبار النطق</span>
+                <span class="mode-desc">انطق الكلمة بصوتك والمتصفح يقيّمك</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- منطقة الممارسة -->
+    <div class="practice-area" id="practiceArea">
+        <div class="practice-start-screen" id="startScreen">
+            <h2>جاهز للممارسة؟</h2>
+            <p>اختر المستوى والوضع ثم اضغط "ابدأ"</p>
+            <button class="btn-start-practice" id="btnStartPractice">🚀 ابدأ الممارسة</button>
+        </div>
+
+        <div class="practice-question-area" id="questionArea" style="display: none;">
+            <div class="practice-header">
+                <span class="practice-round">الجولة: <strong id="roundNumber">1</strong></span>
+                <span class="practice-stats-quick">
+                    ✓ <strong id="correctCount">0</strong> / ✗ <strong id="wrongCount">0</strong>
+                </span>
+                <span class="practice-streak-display" id="streakDisplay" style="display: none;">🔥 <strong id="streakCount">0</strong></span>
+            </div>
+            <div class="practice-question-content" id="questionContent"></div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="site-footer">
+    <p>© 2026 English code. جميع الحقوق محفوظة.</p>
+    <p>المؤلف: medo king | <a href="https://wa.me/201277398832" target="_blank" style="color: var(--color-accent); text-decoration: none;">واتساب: 01277398832</a></p>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/data-service.js"></script>
+<script src="js/audio-service.js"></script>
+<script src="js/theme-service.js"></script>
+<script src="js/speech-service.js"></script>
+<script src="js/sound-card-factory.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/learning-path.js"></script>
+<script src="js/advanced-practice.js"></script>
+<script src="js/progress-tracker.js"></script>
+<script src="js/memory-game.js"></script>
+<script src="js/practice-page.js"></script>
+</body>
+</html>

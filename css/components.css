@@ -833,3 +833,44 @@
         font-size: 0.9rem;
     }
 }
+
+/* ===== أزواج مشهورة (Minimal Pairs) ===== */
+.famous-pairs-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.famous-pairs-title {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1rem;
+}
+
+.famous-pairs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.famous-pair-btn {
+    background: var(--color-card);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: var(--font-symbols);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text);
+    transition: all 0.25s ease;
+}
+
+.famous-pair-btn:hover {
+    background: var(--color-accent);
+    color: #fff;
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(216, 27, 63, 0.2);
+}

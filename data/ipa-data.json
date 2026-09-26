@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": 1,
     "symbol": "i:",
@@ -6,23 +6,28 @@
     "words": [
       {
         "word": "see",
-        "audioFile": "ipa-samples/see.mp3"
+        "audioFile": "ipa-samples/see.mp3",
+        "ipa": "si:"
       },
       {
         "word": "agree",
-        "audioFile": "ipa-samples/agree.mp3"
+        "audioFile": "ipa-samples/agree.mp3",
+        "ipa": "əɡri:"
       },
       {
         "word": "eat",
-        "audioFile": "ipa-samples/eat.mp3"
+        "audioFile": "ipa-samples/eat.mp3",
+        "ipa": "i:t"
       },
       {
         "word": "seat",
-        "audioFile": "ipa-samples/seat.mp3"
+        "audioFile": "ipa-samples/seat.mp3",
+        "ipa": "si:t"
       },
       {
         "word": "team",
-        "audioFile": "ipa-samples/team.mp3"
+        "audioFile": "ipa-samples/team.mp3",
+        "ipa": "ti:m"
       }
     ],
     "guideImage": "ipa-guides/im1.webp"
@@ -34,23 +39,28 @@
     "words": [
       {
         "word": "if",
-        "audioFile": "ipa-samples/if.mp3"
+        "audioFile": "ipa-samples/if.mp3",
+        "ipa": "If"
       },
       {
         "word": "listen",
-        "audioFile": "ipa-samples/listen.mp3"
+        "audioFile": "ipa-samples/listen.mp3",
+        "ipa": "lIsən"
       },
       {
         "word": "miss",
-        "audioFile": "ipa-samples/miss.mp3"
+        "audioFile": "ipa-samples/miss.mp3",
+        "ipa": "mIs"
       },
       {
         "word": "dinner",
-        "audioFile": "ipa-samples/dinner.mp3"
+        "audioFile": "ipa-samples/dinner.mp3",
+        "ipa": "dInə"
       },
       {
         "word": "swim",
-        "audioFile": "ipa-samples/swim.mp3"
+        "audioFile": "ipa-samples/swim.mp3",
+        "ipa": "swIm"
       }
     ],
     "guideImage": "ipa-guides/im2.webp"
@@ -62,19 +72,38 @@
     "words": [
       {
         "word": "too",
-        "audioFile": "ipa-samples/too.mp3"
+        "audioFile": "ipa-samples/too.mp3",
+        "ipa": "tu:"
       },
       {
         "word": "group",
-        "audioFile": "ipa-samples/group.mp3"
+        "audioFile": "ipa-samples/group.mp3",
+        "ipa": "ɡru:p"
       },
       {
         "word": "shoe",
-        "audioFile": "ipa-samples/shoe.mp3"
+        "audioFile": "ipa-samples/shoe.mp3",
+        "ipa": "ʃu:"
       },
       {
         "word": "blue",
-        "audioFile": "ipa-samples/blue.mp3"
+        "audioFile": "ipa-samples/blue.mp3",
+        "ipa": "blu:"
+      },
+      {
+        "word": "moon",
+        "audioFile": "ipa-samples/moon.mp3",
+        "ipa": "mu:n"
+      },
+      {
+        "word": "school",
+        "audioFile": "ipa-samples/school.mp3",
+        "ipa": "sku:l"
+      },
+      {
+        "word": "rule",
+        "audioFile": "ipa-samples/rule.mp3",
+        "ipa": "ru:l"
       }
     ],
     "guideImage": "ipa-guides/im3.webp"
@@ -86,23 +115,28 @@
     "words": [
       {
         "word": "full",
-        "audioFile": "ipa-samples/full.mp3"
+        "audioFile": "ipa-samples/full.mp3",
+        "ipa": "fʊl"
       },
       {
         "word": "sugar",
-        "audioFile": "ipa-samples/sugar.mp3"
+        "audioFile": "ipa-samples/sugar.mp3",
+        "ipa": "ʃʊɡə"
       },
       {
         "word": "book",
-        "audioFile": "ipa-samples/book.mp3"
+        "audioFile": "ipa-samples/book.mp3",
+        "ipa": "bʊk"
       },
       {
         "word": "foot",
-        "audioFile": "ipa-samples/foot.mp3"
+        "audioFile": "ipa-samples/foot.mp3",
+        "ipa": "fʊt"
       },
       {
         "word": "would",
-        "audioFile": "ipa-samples/would.mp3"
+        "audioFile": "ipa-samples/would.mp3",
+        "ipa": "wʊd"
       }
     ],
     "guideImage": "ipa-guides/im4.webp"
@@ -114,11 +148,28 @@
     "words": [
       {
         "word": "ago",
-        "audioFile": "ipa-samples/ago.mp3"
+        "audioFile": "ipa-samples/ago.mp3",
+        "ipa": "əɡəʊ"
       },
       {
         "word": "again",
-        "audioFile": "ipa-samples/again.mp3"
+        "audioFile": "ipa-samples/again.mp3",
+        "ipa": "əɡen"
+      },
+      {
+        "word": "problem",
+        "audioFile": "ipa-samples/problem.mp3",
+        "ipa": "prɑ:bləm"
+      },
+      {
+        "word": "pencil",
+        "audioFile": "ipa-samples/pencil.mp3",
+        "ipa": "pensəl"
+      },
+      {
+        "word": "doctor",
+        "audioFile": "ipa-samples/doctor.mp3",
+        "ipa": "dɑ:ktə"
       }
     ],
     "guideImage": "ipa-guides/im5.webp"
@@ -130,27 +181,33 @@
     "words": [
       {
         "word": "bird",
-        "audioFile": "ipa-samples/bird.mp3"
+        "audioFile": "ipa-samples/bird.mp3",
+        "ipa": "bɜːd"
       },
       {
         "word": "word",
-        "audioFile": "ipa-samples/word.mp3"
+        "audioFile": "ipa-samples/word.mp3",
+        "ipa": "wɜːd"
       },
       {
         "word": "turn",
-        "audioFile": "ipa-samples/turn.mp3"
+        "audioFile": "ipa-samples/turn.mp3",
+        "ipa": "tɜːn"
       },
       {
         "word": "journey",
-        "audioFile": "ipa-samples/journey.mp3"
+        "audioFile": "ipa-samples/journey.mp3",
+        "ipa": "ʤɜːni:"
       },
       {
         "word": "early",
-        "audioFile": "ipa-samples/early.mp3"
+        "audioFile": "ipa-samples/early.mp3",
+        "ipa": "ɜːli:"
       },
       {
         "word": "service",
-        "audioFile": "ipa-samples/service.mp3"
+        "audioFile": "ipa-samples/service.mp3",
+        "ipa": "sɜːvəs"
       }
     ],
     "guideImage": "ipa-guides/im6.webp"
@@ -162,23 +219,28 @@
     "words": [
       {
         "word": "ball",
-        "audioFile": "ipa-samples/ball.mp3"
+        "audioFile": "ipa-samples/ball.mp3",
+        "ipa": "bɒl"
       },
       {
         "word": "talk",
-        "audioFile": "ipa-samples/talk.mp3"
+        "audioFile": "ipa-samples/talk.mp3",
+        "ipa": "tɒk"
       },
       {
         "word": "autumn",
-        "audioFile": "ipa-samples/autumn.mp3"
+        "audioFile": "ipa-samples/autumn.mp3",
+        "ipa": "ɒtəm"
       },
       {
         "word": "saw",
-        "audioFile": "ipa-samples/saw.mp3"
+        "audioFile": "ipa-samples/saw.mp3",
+        "ipa": "sɒ"
       },
       {
         "word": "caught",
-        "audioFile": "ipa-samples/caught.mp3"
+        "audioFile": "ipa-samples/caught.mp3",
+        "ipa": "kɑ:t"
       }
     ],
     "guideImage": "ipa-guides/im7.webp"
@@ -190,23 +252,28 @@
     "words": [
       {
         "word": "check",
-        "audioFile": "ipa-samples/check.mp3"
+        "audioFile": "ipa-samples/check.mp3",
+        "ipa": "ʧek"
       },
       {
         "word": "leg",
-        "audioFile": "ipa-samples/leg.mp3"
+        "audioFile": "ipa-samples/leg.mp3",
+        "ipa": "leɡ"
       },
       {
         "word": "bread",
-        "audioFile": "ipa-samples/bread.mp3"
+        "audioFile": "ipa-samples/bread.mp3",
+        "ipa": "bred"
       },
       {
         "word": "friend",
-        "audioFile": "ipa-samples/friend.mp3"
+        "audioFile": "ipa-samples/friend.mp3",
+        "ipa": "frend"
       },
       {
         "word": "any",
-        "audioFile": "ipa-samples/any.mp3"
+        "audioFile": "ipa-samples/any.mp3",
+        "ipa": "eni:"
       }
     ],
     "guideImage": "ipa-guides/im8.webp"
@@ -218,19 +285,33 @@
     "words": [
       {
         "word": "care",
-        "audioFile": "ipa-samples/care.mp3"
+        "audioFile": "ipa-samples/care.mp3",
+        "ipa": "ker"
       },
       {
         "word": "chair",
-        "audioFile": "ipa-samples/chair.mp3"
+        "audioFile": "ipa-samples/chair.mp3",
+        "ipa": "ʧer"
       },
       {
         "word": "wear",
-        "audioFile": "ipa-samples/wear.mp3"
+        "audioFile": "ipa-samples/wear.mp3",
+        "ipa": "wer"
       },
       {
         "word": "where",
-        "audioFile": "ipa-samples/where.mp3"
+        "audioFile": "ipa-samples/where.mp3",
+        "ipa": "wer"
+      },
+      {
+        "word": "air",
+        "audioFile": "ipa-samples/air.mp3",
+        "ipa": "er"
+      },
+      {
+        "word": "fair",
+        "audioFile": "ipa-samples/fair.mp3",
+        "ipa": "fer"
       }
     ],
     "guideImage": null
@@ -242,27 +323,33 @@
     "words": [
       {
         "word": "bus",
-        "audioFile": "ipa-samples/bus.mp3"
+        "audioFile": "ipa-samples/bus.mp3",
+        "ipa": "bʌs"
       },
       {
         "word": "colour",
-        "audioFile": "ipa-samples/colour.mp3"
+        "audioFile": "ipa-samples/colour.mp3",
+        "ipa": "kʌlə"
       },
       {
         "word": "come",
-        "audioFile": "ipa-samples/come.mp3"
+        "audioFile": "ipa-samples/come.mp3",
+        "ipa": "kʌm"
       },
       {
         "word": "cup",
-        "audioFile": "ipa-samples/cup.mp3"
+        "audioFile": "ipa-samples/cup.mp3",
+        "ipa": "kʌp"
       },
       {
         "word": "front",
-        "audioFile": "ipa-samples/front.mp3"
+        "audioFile": "ipa-samples/front.mp3",
+        "ipa": "frʌnt"
       },
       {
         "word": "monday",
-        "audioFile": "ipa-samples/monday.mp3"
+        "audioFile": "ipa-samples/monday.mp3",
+        "ipa": "mʌndi:"
       }
     ],
     "guideImage": "ipa-guides/im10.webp"
@@ -274,27 +361,33 @@
     "words": [
       {
         "word": "bottle",
-        "audioFile": "ipa-samples/bottle.mp3"
+        "audioFile": "ipa-samples/bottle.mp3",
+        "ipa": "bɑ:təl"
       },
       {
         "word": "box",
-        "audioFile": "ipa-samples/box.mp3"
+        "audioFile": "ipa-samples/box.mp3",
+        "ipa": "bɑ:ks"
       },
       {
         "word": "chocolate",
-        "audioFile": "ipa-samples/chocolate.mp3"
+        "audioFile": "ipa-samples/chocolate.mp3",
+        "ipa": "ʧɒklət"
       },
       {
         "word": "clock",
-        "audioFile": "ipa-samples/clock.mp3"
+        "audioFile": "ipa-samples/clock.mp3",
+        "ipa": "klɑ:k"
       },
       {
         "word": "coffee",
-        "audioFile": "ipa-samples/coffee.mp3"
+        "audioFile": "ipa-samples/coffee.mp3",
+        "ipa": "kɑ:fi:"
       },
       {
         "word": "copy",
-        "audioFile": "ipa-samples/copy.mp3"
+        "audioFile": "ipa-samples/copy.mp3",
+        "ipa": "kɑ:pi:"
       }
     ],
     "guideImage": "ipa-guides/im11.webp"
@@ -306,27 +399,33 @@
     "words": [
       {
         "word": "back",
-        "audioFile": "ipa-samples/back.mp3"
+        "audioFile": "ipa-samples/back.mp3",
+        "ipa": "bæk"
       },
       {
         "word": "camera",
-        "audioFile": "ipa-samples/camera.mp3"
+        "audioFile": "ipa-samples/camera.mp3",
+        "ipa": "kæmɜːə"
       },
       {
         "word": "factory",
-        "audioFile": "ipa-samples/factory.mp3"
+        "audioFile": "ipa-samples/factory.mp3",
+        "ipa": "fæktɜːi:"
       },
       {
         "word": "hat",
-        "audioFile": "ipa-samples/hat.mp3"
+        "audioFile": "ipa-samples/hat.mp3",
+        "ipa": "hæt"
       },
       {
         "word": "jam",
-        "audioFile": "ipa-samples/jam.mp3"
+        "audioFile": "ipa-samples/jam.mp3",
+        "ipa": "ʤæm"
       },
       {
         "word": "manager",
-        "audioFile": "ipa-samples/manager.mp3"
+        "audioFile": "ipa-samples/manager.mp3",
+        "ipa": "mænəʤə"
       }
     ],
     "guideImage": "ipa-guides/im12.webp"
@@ -338,27 +437,33 @@
     "words": [
       {
         "word": "after",
-        "audioFile": "ipa-samples/after.mp3"
+        "audioFile": "ipa-samples/after.mp3",
+        "ipa": "æftə"
       },
       {
         "word": "afternoon",
-        "audioFile": "ipa-samples/afternoon.mp3"
+        "audioFile": "ipa-samples/afternoon.mp3",
+        "ipa": "æftɜːnu:n"
       },
       {
         "word": "ask",
-        "audioFile": "ipa-samples/ask.mp3"
+        "audioFile": "ipa-samples/ask.mp3",
+        "ipa": "æsk"
       },
       {
         "word": "answer",
-        "audioFile": "ipa-samples/answer.mp3"
+        "audioFile": "ipa-samples/answer.mp3",
+        "ipa": "ænsə"
       },
       {
         "word": "bath",
-        "audioFile": "ipa-samples/bath.mp3"
+        "audioFile": "ipa-samples/bath.mp3",
+        "ipa": "bæθ"
       },
       {
         "word": "bathroom",
-        "audioFile": "ipa-samples/bathroom.mp3"
+        "audioFile": "ipa-samples/bathroom.mp3",
+        "ipa": "bæθru:m"
       }
     ],
     "guideImage": "ipa-guides/im13.webp"
@@ -370,23 +475,28 @@
     "words": [
       {
         "word": "real",
-        "audioFile": "ipa-samples/real.mp3"
+        "audioFile": "ipa-samples/real.mp3",
+        "ipa": "ri:l"
       },
       {
         "word": "beard",
-        "audioFile": "ipa-samples/beard.mp3"
+        "audioFile": "ipa-samples/beard.mp3",
+        "ipa": "bIrd"
       },
       {
         "word": "clear",
-        "audioFile": "ipa-samples/clear.mp3"
+        "audioFile": "ipa-samples/clear.mp3",
+        "ipa": "klIr"
       },
       {
         "word": "cheers",
-        "audioFile": "ipa-samples/cheers.mp3"
+        "audioFile": "ipa-samples/cheers.mp3",
+        "ipa": "ʧIrz"
       },
       {
         "word": "here",
-        "audioFile": "ipa-samples/here.mp3"
+        "audioFile": "ipa-samples/here.mp3",
+        "ipa": "hi:r"
       }
     ],
     "guideImage": "ipa-guides/im14.webp"
@@ -398,27 +508,33 @@
     "words": [
       {
         "word": "age",
-        "audioFile": "ipa-samples/age.mp3"
+        "audioFile": "ipa-samples/age.mp3",
+        "ipa": "eɪʤ"
       },
       {
         "word": "rain",
-        "audioFile": "ipa-samples/rain.mp3"
+        "audioFile": "ipa-samples/rain.mp3",
+        "ipa": "reɪn"
       },
       {
         "word": "day",
-        "audioFile": "ipa-samples/day.mp3"
+        "audioFile": "ipa-samples/day.mp3",
+        "ipa": "deɪ"
       },
       {
         "word": "grey",
-        "audioFile": "ipa-samples/grey.mp3"
+        "audioFile": "ipa-samples/grey.mp3",
+        "ipa": "ɡreɪ"
       },
       {
         "word": "break",
-        "audioFile": "ipa-samples/break.mp3"
+        "audioFile": "ipa-samples/break.mp3",
+        "ipa": "breɪk"
       },
       {
         "word": "eight",
-        "audioFile": "ipa-samples/eight.mp3"
+        "audioFile": "ipa-samples/eight.mp3",
+        "ipa": "eɪt"
       }
     ],
     "guideImage": "ipa-guides/im15.webp"
@@ -430,23 +546,28 @@
     "words": [
       {
         "word": "how",
-        "audioFile": "ipa-samples/how.mp3"
+        "audioFile": "ipa-samples/how.mp3",
+        "ipa": "haʊ"
       },
       {
         "word": "now",
-        "audioFile": "ipa-samples/now.mp3"
+        "audioFile": "ipa-samples/now.mp3",
+        "ipa": "naʊ"
       },
       {
         "word": "vowel",
-        "audioFile": "ipa-samples/vowel.mp3"
+        "audioFile": "ipa-samples/vowel.mp3",
+        "ipa": "vaʊəl"
       },
       {
         "word": "mouth",
-        "audioFile": "ipa-samples/mouth.mp3"
+        "audioFile": "ipa-samples/mouth.mp3",
+        "ipa": "maʊθ"
       },
       {
         "word": "sound",
-        "audioFile": "ipa-samples/sound.mp3"
+        "audioFile": "ipa-samples/sound.mp3",
+        "ipa": "saʊnd"
       }
     ],
     "guideImage": "ipa-guides/im16.webp"
@@ -458,23 +579,28 @@
     "words": [
       {
         "word": "cold",
-        "audioFile": "ipa-samples/cold.mp3"
+        "audioFile": "ipa-samples/cold.mp3",
+        "ipa": "kəʊld"
       },
       {
         "word": "post",
-        "audioFile": "ipa-samples/post.mp3"
+        "audioFile": "ipa-samples/post.mp3",
+        "ipa": "pəʊst"
       },
       {
         "word": "know",
-        "audioFile": "ipa-samples/know.mp3"
+        "audioFile": "ipa-samples/know.mp3",
+        "ipa": "nəʊ"
       },
       {
         "word": "boat",
-        "audioFile": "ipa-samples/boat.mp3"
+        "audioFile": "ipa-samples/boat.mp3",
+        "ipa": "bəʊt"
       },
       {
         "word": "toe",
-        "audioFile": "ipa-samples/toe.mp3"
+        "audioFile": "ipa-samples/toe.mp3",
+        "ipa": "təʊ"
       }
     ],
     "guideImage": "ipa-guides/im17.webp"
@@ -486,23 +612,28 @@
     "words": [
       {
         "word": "like",
-        "audioFile": "ipa-samples/like.mp3"
+        "audioFile": "ipa-samples/like.mp3",
+        "ipa": "laɪk"
       },
       {
         "word": "die",
-        "audioFile": "ipa-samples/die.mp3"
+        "audioFile": "ipa-samples/die.mp3",
+        "ipa": "daɪ"
       },
       {
         "word": "dry",
-        "audioFile": "ipa-samples/dry.mp3"
+        "audioFile": "ipa-samples/dry.mp3",
+        "ipa": "draɪ"
       },
       {
         "word": "high",
-        "audioFile": "ipa-samples/high.mp3"
+        "audioFile": "ipa-samples/high.mp3",
+        "ipa": "haɪ"
       },
       {
         "word": "buy",
-        "audioFile": "ipa-samples/buy.mp3"
+        "audioFile": "ipa-samples/buy.mp3",
+        "ipa": "baɪ"
       }
     ],
     "guideImage": "ipa-guides/im18.webp"
@@ -514,7 +645,28 @@
     "words": [
       {
         "word": "curious",
-        "audioFile": "ipa-samples/curious.mp3"
+        "audioFile": "ipa-samples/curious.mp3",
+        "ipa": "kjʊri:əs"
+      },
+      {
+        "word": "tour",
+        "audioFile": "ipa-samples/tour.mp3",
+        "ipa": "tʊr"
+      },
+      {
+        "word": "poor",
+        "audioFile": "ipa-samples/poor.mp3",
+        "ipa": "pu:r"
+      },
+      {
+        "word": "pure",
+        "audioFile": "ipa-samples/pure.mp3",
+        "ipa": "pjʊr"
+      },
+      {
+        "word": "cure",
+        "audioFile": "ipa-samples/cure.mp3",
+        "ipa": "kjʊr"
       }
     ],
     "guideImage": null
@@ -526,27 +678,33 @@
     "words": [
       {
         "word": "coin",
-        "audioFile": "ipa-samples/coin.mp3"
+        "audioFile": "ipa-samples/coin.mp3",
+        "ipa": "kɔɪn"
       },
       {
         "word": "point",
-        "audioFile": "ipa-samples/point.mp3"
+        "audioFile": "ipa-samples/point.mp3",
+        "ipa": "pɔɪnt"
       },
       {
         "word": "voice",
-        "audioFile": "ipa-samples/voice.mp3"
+        "audioFile": "ipa-samples/voice.mp3",
+        "ipa": "vɔɪs"
       },
       {
         "word": "boy",
-        "audioFile": "ipa-samples/boy.mp3"
+        "audioFile": "ipa-samples/boy.mp3",
+        "ipa": "bɔɪ"
       },
       {
         "word": "enjoy",
-        "audioFile": "ipa-samples/enjoy.mp3"
+        "audioFile": "ipa-samples/enjoy.mp3",
+        "ipa": "enʤɔɪ"
       },
       {
         "word": "toy",
-        "audioFile": "ipa-samples/toy.mp3"
+        "audioFile": "ipa-samples/toy.mp3",
+        "ipa": "tɔɪ"
       }
     ],
     "guideImage": "ipa-guides/im18.webp"
@@ -558,23 +716,28 @@
     "words": [
       {
         "word": "feel",
-        "audioFile": "ipa-samples/feel.mp3"
+        "audioFile": "ipa-samples/feel.mp3",
+        "ipa": "fi:l"
       },
       {
         "word": "off",
-        "audioFile": "ipa-samples/off.mp3"
+        "audioFile": "ipa-samples/off.mp3",
+        "ipa": "ɒf"
       },
       {
         "word": "coffee",
-        "audioFile": "ipa-samples/coffee.mp3"
+        "audioFile": "ipa-samples/coffee.mp3",
+        "ipa": "kɑ:fi:"
       },
       {
         "word": "phone",
-        "audioFile": "ipa-samples/phone.mp3"
+        "audioFile": "ipa-samples/phone.mp3",
+        "ipa": "fəʊn"
       },
       {
         "word": "laugh",
-        "audioFile": "ipa-samples/laugh.mp3"
+        "audioFile": "ipa-samples/laugh.mp3",
+        "ipa": "læf"
       }
     ],
     "guideImage": "ipa-guides/im21.webp"
@@ -586,23 +749,28 @@
     "words": [
       {
         "word": "very",
-        "audioFile": "ipa-samples/very.mp3"
+        "audioFile": "ipa-samples/very.mp3",
+        "ipa": "veri:"
       },
       {
         "word": "travel",
-        "audioFile": "ipa-samples/travel.mp3"
+        "audioFile": "ipa-samples/travel.mp3",
+        "ipa": "trævəl"
       },
       {
         "word": "every",
-        "audioFile": "ipa-samples/every.mp3"
+        "audioFile": "ipa-samples/every.mp3",
+        "ipa": "evɜːi:"
       },
       {
         "word": "have",
-        "audioFile": "ipa-samples/have.mp3"
+        "audioFile": "ipa-samples/have.mp3",
+        "ipa": "hæv"
       },
       {
         "word": "leave",
-        "audioFile": "ipa-samples/leave.mp3"
+        "audioFile": "ipa-samples/leave.mp3",
+        "ipa": "li:v"
       }
     ],
     "guideImage": "ipa-guides/im22.webp"
@@ -614,27 +782,33 @@
     "words": [
       {
         "word": "thin",
-        "audioFile": "ipa-samples/thin.mp3"
+        "audioFile": "ipa-samples/thin.mp3",
+        "ipa": "θIn"
       },
       {
         "word": "month",
-        "audioFile": "ipa-samples/month.mp3"
+        "audioFile": "ipa-samples/month.mp3",
+        "ipa": "mʌnθ"
       },
       {
         "word": "thanks",
-        "audioFile": "ipa-samples/thanks.mp3"
+        "audioFile": "ipa-samples/thanks.mp3",
+        "ipa": "θæŋks"
       },
       {
         "word": "thirty",
-        "audioFile": "ipa-samples/thirty.mp3"
+        "audioFile": "ipa-samples/thirty.mp3",
+        "ipa": "θɜːdi:"
       },
       {
         "word": "south",
-        "audioFile": "ipa-samples/south.mp3"
+        "audioFile": "ipa-samples/south.mp3",
+        "ipa": "saʊθ"
       },
       {
         "word": "birthday",
-        "audioFile": "ipa-samples/birthday.mp3"
+        "audioFile": "ipa-samples/birthday.mp3",
+        "ipa": "bɜːθdeɪ"
       }
     ],
     "guideImage": "ipa-guides/im23.webp"
@@ -646,27 +820,33 @@
     "words": [
       {
         "word": "this",
-        "audioFile": "ipa-samples/this.mp3"
+        "audioFile": "ipa-samples/this.mp3",
+        "ipa": "ðIs"
       },
       {
         "word": "that",
-        "audioFile": "ipa-samples/that.mp3"
+        "audioFile": "ipa-samples/that.mp3",
+        "ipa": "ðæt"
       },
       {
         "word": "brother",
-        "audioFile": "ipa-samples/brother.mp3"
+        "audioFile": "ipa-samples/brother.mp3",
+        "ipa": "brʌðə"
       },
       {
         "word": "together",
-        "audioFile": "ipa-samples/together.mp3"
+        "audioFile": "ipa-samples/together.mp3",
+        "ipa": "təɡeðə"
       },
       {
         "word": "weather",
-        "audioFile": "ipa-samples/weather.mp3"
+        "audioFile": "ipa-samples/weather.mp3",
+        "ipa": "weðə"
       },
       {
         "word": "without",
-        "audioFile": "ipa-samples/without.mp3"
+        "audioFile": "ipa-samples/without.mp3",
+        "ipa": "wIθaʊt"
       }
     ],
     "guideImage": "ipa-guides/im24.webp"
@@ -678,23 +858,28 @@
     "words": [
       {
         "word": "sister",
-        "audioFile": "ipa-samples/sister.mp3"
+        "audioFile": "ipa-samples/sister.mp3",
+        "ipa": "sIstə"
       },
       {
         "word": "class",
-        "audioFile": "ipa-samples/class.mp3"
+        "audioFile": "ipa-samples/class.mp3",
+        "ipa": "klæs"
       },
       {
         "word": "glasses",
-        "audioFile": "ipa-samples/glasses.mp3"
+        "audioFile": "ipa-samples/glasses.mp3",
+        "ipa": "ɡlæsəz"
       },
       {
         "word": "city",
-        "audioFile": "ipa-samples/city.mp3"
+        "audioFile": "ipa-samples/city.mp3",
+        "ipa": "sIti:"
       },
       {
         "word": "science",
-        "audioFile": "ipa-samples/science.mp3"
+        "audioFile": "ipa-samples/science.mp3",
+        "ipa": "saɪəns"
       }
     ],
     "guideImage": "ipa-guides/im25.webp"
@@ -706,23 +891,28 @@
     "words": [
       {
         "word": "gives",
-        "audioFile": "ipa-samples/gives.mp3"
+        "audioFile": "ipa-samples/gives.mp3",
+        "ipa": "ɡIvz"
       },
       {
         "word": "husband",
-        "audioFile": "ipa-samples/husband.mp3"
+        "audioFile": "ipa-samples/husband.mp3",
+        "ipa": "hʌzbənd"
       },
       {
         "word": "zero",
-        "audioFile": "ipa-samples/zero.mp3"
+        "audioFile": "ipa-samples/zero.mp3",
+        "ipa": "zIrəʊ"
       },
       {
         "word": "scissors",
-        "audioFile": "ipa-samples/scissors.mp3"
+        "audioFile": "ipa-samples/scissors.mp3",
+        "ipa": "sIzɜːz"
       },
       {
         "word": "jazz",
-        "audioFile": "ipa-samples/jazz.mp3"
+        "audioFile": "ipa-samples/jazz.mp3",
+        "ipa": "ʤæz"
       }
     ],
     "guideImage": "ipa-guides/im26.webp"
@@ -734,27 +924,33 @@
     "words": [
       {
         "word": "shop",
-        "audioFile": "ipa-samples/shop.mp3"
+        "audioFile": "ipa-samples/shop.mp3",
+        "ipa": "ʃɑ:p"
       },
       {
         "word": "fashion",
-        "audioFile": "ipa-samples/fashion.mp3"
+        "audioFile": "ipa-samples/fashion.mp3",
+        "ipa": "fæʃən"
       },
       {
         "word": "cash",
-        "audioFile": "ipa-samples/cash.mp3"
+        "audioFile": "ipa-samples/cash.mp3",
+        "ipa": "kæʃ"
       },
       {
         "word": "fresh",
-        "audioFile": "ipa-samples/fresh.mp3"
+        "audioFile": "ipa-samples/fresh.mp3",
+        "ipa": "freʃ"
       },
       {
         "word": "wash",
-        "audioFile": "ipa-samples/wash.mp3"
+        "audioFile": "ipa-samples/wash.mp3",
+        "ipa": "wɑ:ʃ"
       },
       {
         "word": "mushroom",
-        "audioFile": "ipa-samples/mushroom.mp3"
+        "audioFile": "ipa-samples/mushroom.mp3",
+        "ipa": "mʌʃru:m"
       }
     ],
     "guideImage": "ipa-guides/im27.webp"
@@ -766,15 +962,28 @@
     "words": [
       {
         "word": "television",
-        "audioFile": "ipa-samples/television.mp3"
+        "audioFile": "ipa-samples/television.mp3",
+        "ipa": "teləvIʒən"
       },
       {
         "word": "asia",
-        "audioFile": "ipa-samples/asia.mp3"
+        "audioFile": "ipa-samples/asia.mp3",
+        "ipa": "eɪʒə"
       },
       {
         "word": "usually",
-        "audioFile": "ipa-samples/usually.mp3"
+        "audioFile": "ipa-samples/usually.mp3",
+        "ipa": "ju:ʒəwəli:"
+      },
+      {
+        "word": "vision",
+        "audioFile": "ipa-samples/vision.mp3",
+        "ipa": "vIʒən"
+      },
+      {
+        "word": "pleasure",
+        "audioFile": "ipa-samples/pleasure.mp3",
+        "ipa": "pleʒə"
       }
     ],
     "guideImage": "ipa-guides/im28.webp"
@@ -786,15 +995,28 @@
     "words": [
       {
         "word": "how",
-        "audioFile": "ipa-samples/how.mp3"
+        "audioFile": "ipa-samples/how.mp3",
+        "ipa": "haʊ"
       },
       {
         "word": "hat",
-        "audioFile": "ipa-samples/hat.mp3"
+        "audioFile": "ipa-samples/hat.mp3",
+        "ipa": "hæt"
       },
       {
         "word": "here",
-        "audioFile": "ipa-samples/here.mp3"
+        "audioFile": "ipa-samples/here.mp3",
+        "ipa": "hi:r"
+      },
+      {
+        "word": "house",
+        "audioFile": "ipa-samples/house.mp3",
+        "ipa": "haʊs"
+      },
+      {
+        "word": "happy",
+        "audioFile": "ipa-samples/happy.mp3",
+        "ipa": "hæpi:"
       }
     ],
     "guideImage": "ipa-guides/im29.webp"
@@ -806,23 +1028,28 @@
     "words": [
       {
         "word": "pen",
-        "audioFile": "ipa-samples/pen.mp3"
+        "audioFile": "ipa-samples/pen.mp3",
+        "ipa": "pen"
       },
       {
         "word": "push",
-        "audioFile": "ipa-samples/push.mp3"
+        "audioFile": "ipa-samples/push.mp3",
+        "ipa": "pʊʃ"
       },
       {
         "word": "stop",
-        "audioFile": "ipa-samples/stop.mp3"
+        "audioFile": "ipa-samples/stop.mp3",
+        "ipa": "stɑ:p"
       },
       {
         "word": "happy",
-        "audioFile": "ipa-samples/happy.mp3"
+        "audioFile": "ipa-samples/happy.mp3",
+        "ipa": "hæpi:"
       },
       {
         "word": "stopping",
-        "audioFile": "ipa-samples/stopping.mp3"
+        "audioFile": "ipa-samples/stopping.mp3",
+        "ipa": "stɑ:pIŋ"
       }
     ],
     "guideImage": "ipa-guides/im30.webp"
@@ -834,23 +1061,28 @@
     "words": [
       {
         "word": "big",
-        "audioFile": "ipa-samples/big.mp3"
+        "audioFile": "ipa-samples/big.mp3",
+        "ipa": "bIɡ"
       },
       {
         "word": "best",
-        "audioFile": "ipa-samples/best.mp3"
+        "audioFile": "ipa-samples/best.mp3",
+        "ipa": "best"
       },
       {
         "word": "rob",
-        "audioFile": "ipa-samples/rob.mp3"
+        "audioFile": "ipa-samples/rob.mp3",
+        "ipa": "rɑ:b"
       },
       {
         "word": "robber",
-        "audioFile": "ipa-samples/robber.mp3"
+        "audioFile": "ipa-samples/robber.mp3",
+        "ipa": "rɑ:bə"
       },
       {
         "word": "verb",
-        "audioFile": "ipa-samples/verb.mp3"
+        "audioFile": "ipa-samples/verb.mp3",
+        "ipa": "vɜːb"
       }
     ],
     "guideImage": "ipa-guides/im31.webp"
@@ -862,23 +1094,28 @@
     "words": [
       {
         "word": "bottle",
-        "audioFile": "ipa-samples/bottle.mp3"
+        "audioFile": "ipa-samples/bottle.mp3",
+        "ipa": "bɑ:təl"
       },
       {
         "word": "tea",
-        "audioFile": "ipa-samples/tea.mp3"
+        "audioFile": "ipa-samples/tea.mp3",
+        "ipa": "ti:"
       },
       {
         "word": "water",
-        "audioFile": "ipa-samples/water.mp3"
+        "audioFile": "ipa-samples/water.mp3",
+        "ipa": "wɒtə"
       },
       {
         "word": "eat",
-        "audioFile": "ipa-samples/eat.mp3"
+        "audioFile": "ipa-samples/eat.mp3",
+        "ipa": "i:t"
       },
       {
         "word": "eight",
-        "audioFile": "ipa-samples/eight.mp3"
+        "audioFile": "ipa-samples/eight.mp3",
+        "ipa": "eɪt"
       }
     ],
     "guideImage": "ipa-guides/im32.webp"
@@ -890,23 +1127,28 @@
     "words": [
       {
         "word": "day",
-        "audioFile": "ipa-samples/day.mp3"
+        "audioFile": "ipa-samples/day.mp3",
+        "ipa": "deɪ"
       },
       {
         "word": "food",
-        "audioFile": "ipa-samples/food.mp3"
+        "audioFile": "ipa-samples/food.mp3",
+        "ipa": "fu:d"
       },
       {
         "word": "good",
-        "audioFile": "ipa-samples/good.mp3"
+        "audioFile": "ipa-samples/good.mp3",
+        "ipa": "ɡʊd"
       },
       {
         "word": "address",
-        "audioFile": "ipa-samples/address.mp3"
+        "audioFile": "ipa-samples/address.mp3",
+        "ipa": "ædres"
       },
       {
         "word": "ladder",
-        "audioFile": "ipa-samples/ladder.mp3"
+        "audioFile": "ipa-samples/ladder.mp3",
+        "ipa": "lædə"
       }
     ],
     "guideImage": "ipa-guides/im33.webp"
@@ -918,23 +1160,28 @@
     "words": [
       {
         "word": "car",
-        "audioFile": "ipa-samples/car.mp3"
+        "audioFile": "ipa-samples/car.mp3",
+        "ipa": "kɑ:r"
       },
       {
         "word": "cat",
-        "audioFile": "ipa-samples/cat.mp3"
+        "audioFile": "ipa-samples/cat.mp3",
+        "ipa": "kæt"
       },
       {
         "word": "black",
-        "audioFile": "ipa-samples/black.mp3"
+        "audioFile": "ipa-samples/black.mp3",
+        "ipa": "blæk"
       },
       {
         "word": "keep",
-        "audioFile": "ipa-samples/keep.mp3"
+        "audioFile": "ipa-samples/keep.mp3",
+        "ipa": "ki:p"
       },
       {
         "word": "school",
-        "audioFile": "ipa-samples/school.mp3"
+        "audioFile": "ipa-samples/school.mp3",
+        "ipa": "sku:l"
       }
     ],
     "guideImage": "ipa-guides/im34.webp"
@@ -946,23 +1193,28 @@
     "words": [
       {
         "word": "garden",
-        "audioFile": "ipa-samples/garden.mp3"
+        "audioFile": "ipa-samples/garden.mp3",
+        "ipa": "ɡɑ:rdən"
       },
       {
         "word": "ago",
-        "audioFile": "ipa-samples/ago.mp3"
+        "audioFile": "ipa-samples/ago.mp3",
+        "ipa": "əɡəʊ"
       },
       {
         "word": "girl",
-        "audioFile": "ipa-samples/girl.mp3"
+        "audioFile": "ipa-samples/girl.mp3",
+        "ipa": "ɡɜːl"
       },
       {
         "word": "glass",
-        "audioFile": "ipa-samples/glass.mp3"
+        "audioFile": "ipa-samples/glass.mp3",
+        "ipa": "ɡlæs"
       },
       {
         "word": "gold",
-        "audioFile": "ipa-samples/gold.mp3"
+        "audioFile": "ipa-samples/gold.mp3",
+        "ipa": "ɡəʊld"
       }
     ],
     "guideImage": "ipa-guides/im35.webp"
@@ -974,23 +1226,28 @@
     "words": [
       {
         "word": "chips",
-        "audioFile": "ipa-samples/chips.mp3"
+        "audioFile": "ipa-samples/chips.mp3",
+        "ipa": "ʧIps"
       },
       {
         "word": "choose",
-        "audioFile": "ipa-samples/choose.mp3"
+        "audioFile": "ipa-samples/choose.mp3",
+        "ipa": "ʧu:z"
       },
       {
         "word": "future",
-        "audioFile": "ipa-samples/future.mp3"
+        "audioFile": "ipa-samples/future.mp3",
+        "ipa": "fju:ʧə"
       },
       {
         "word": "question",
-        "audioFile": "ipa-samples/question.mp3"
+        "audioFile": "ipa-samples/question.mp3",
+        "ipa": "kwesʧən"
       },
       {
         "word": "catch",
-        "audioFile": "ipa-samples/catch.mp3"
+        "audioFile": "ipa-samples/catch.mp3",
+        "ipa": "kæʧ"
       }
     ],
     "guideImage": "ipa-guides/im36.webp"
@@ -1002,23 +1259,28 @@
     "words": [
       {
         "word": "jam",
-        "audioFile": "ipa-samples/jam.mp3"
+        "audioFile": "ipa-samples/jam.mp3",
+        "ipa": "ʤæm"
       },
       {
         "word": "jacket",
-        "audioFile": "ipa-samples/jacket.mp3"
+        "audioFile": "ipa-samples/jacket.mp3",
+        "ipa": "ʤækət"
       },
       {
         "word": "general",
-        "audioFile": "ipa-samples/general.mp3"
+        "audioFile": "ipa-samples/general.mp3",
+        "ipa": "ʤenɜːəl"
       },
       {
         "word": "age",
-        "audioFile": "ipa-samples/age.mp3"
+        "audioFile": "ipa-samples/age.mp3",
+        "ipa": "eɪʤ"
       },
       {
         "word": "fridge",
-        "audioFile": "ipa-samples/fridge.mp3"
+        "audioFile": "ipa-samples/fridge.mp3",
+        "ipa": "frIʤ"
       }
     ],
     "guideImage": "ipa-guides/im37.webp"
@@ -1030,23 +1292,28 @@
     "words": [
       {
         "word": "week",
-        "audioFile": "ipa-samples/week.mp3"
+        "audioFile": "ipa-samples/week.mp3",
+        "ipa": "wi:k"
       },
       {
         "word": "weather",
-        "audioFile": "ipa-samples/weather.mp3"
+        "audioFile": "ipa-samples/weather.mp3",
+        "ipa": "weðə"
       },
       {
         "word": "what",
-        "audioFile": "ipa-samples/what.mp3"
+        "audioFile": "ipa-samples/what.mp3",
+        "ipa": "wʌt"
       },
       {
         "word": "white",
-        "audioFile": "ipa-samples/white.mp3"
+        "audioFile": "ipa-samples/white.mp3",
+        "ipa": "waɪt"
       },
       {
         "word": "question",
-        "audioFile": "ipa-samples/question.mp3"
+        "audioFile": "ipa-samples/question.mp3",
+        "ipa": "kwesʧən"
       }
     ],
     "guideImage": "ipa-guides/im38.webp"
@@ -1058,19 +1325,33 @@
     "words": [
       {
         "word": "red",
-        "audioFile": "ipa-samples/red.mp3"
+        "audioFile": "ipa-samples/red.mp3",
+        "ipa": "red"
       },
       {
         "word": "ready",
-        "audioFile": "ipa-samples/ready.mp3"
+        "audioFile": "ipa-samples/ready.mp3",
+        "ipa": "redi:"
       },
       {
         "word": "sorry",
-        "audioFile": "ipa-samples/sorry.mp3"
+        "audioFile": "ipa-samples/sorry.mp3",
+        "ipa": "sɑ:ri:"
       },
       {
         "word": "write",
-        "audioFile": "ipa-samples/write.mp3"
+        "audioFile": "ipa-samples/write.mp3",
+        "ipa": "raɪt"
+      },
+      {
+        "word": "green",
+        "audioFile": "ipa-samples/green.mp3",
+        "ipa": "ɡri:n"
+      },
+      {
+        "word": "ring",
+        "audioFile": "ipa-samples/ring.mp3",
+        "ipa": "rIŋ"
       }
     ],
     "guideImage": "ipa-guides/im39.webp"
@@ -1082,19 +1363,33 @@
     "words": [
       {
         "word": "yesterday",
-        "audioFile": "ipa-samples/yesterday.mp3"
+        "audioFile": "ipa-samples/yesterday.mp3",
+        "ipa": "jestɜːdeɪ"
       },
       {
         "word": "year",
-        "audioFile": "ipa-samples/year.mp3"
+        "audioFile": "ipa-samples/year.mp3",
+        "ipa": "jIr"
       },
       {
         "word": "new",
-        "audioFile": "ipa-samples/new.mp3"
+        "audioFile": "ipa-samples/new.mp3",
+        "ipa": "nu:"
       },
       {
         "word": "interview",
-        "audioFile": "ipa-samples/interview.mp3"
+        "audioFile": "ipa-samples/interview.mp3",
+        "ipa": "Intɜːvju:"
+      },
+      {
+        "word": "yellow",
+        "audioFile": "ipa-samples/yellow.mp3",
+        "ipa": "jeləʊ"
+      },
+      {
+        "word": "beautiful",
+        "audioFile": "ipa-samples/beautiful.mp3",
+        "ipa": "bju:təfəl"
       }
     ],
     "guideImage": "ipa-guides/im40.webp"
@@ -1106,11 +1401,28 @@
     "words": [
       {
         "word": "leave",
-        "audioFile": "ipa-samples/leave.mp3"
+        "audioFile": "ipa-samples/leave.mp3",
+        "ipa": "li:v"
       },
       {
         "word": "feel",
-        "audioFile": "ipa-samples/feel.mp3"
+        "audioFile": "ipa-samples/feel.mp3",
+        "ipa": "fi:l"
+      },
+      {
+        "word": "ball",
+        "audioFile": "ipa-samples/ball.mp3",
+        "ipa": "bɒl"
+      },
+      {
+        "word": "milk",
+        "audioFile": "ipa-samples/milk.mp3",
+        "ipa": "mIlk"
+      },
+      {
+        "word": "blue",
+        "audioFile": "ipa-samples/blue.mp3",
+        "ipa": "blu:"
       }
     ],
     "guideImage": "ipa-guides/im41.webp"
@@ -1122,19 +1434,33 @@
     "words": [
       {
         "word": "more",
-        "audioFile": "ipa-samples/more.mp3"
+        "audioFile": "ipa-samples/more.mp3",
+        "ipa": "mɒr"
       },
       {
         "word": "lemon",
-        "audioFile": "ipa-samples/lemon.mp3"
+        "audioFile": "ipa-samples/lemon.mp3",
+        "ipa": "lemən"
       },
       {
         "word": "swim",
-        "audioFile": "ipa-samples/swim.mp3"
+        "audioFile": "ipa-samples/swim.mp3",
+        "ipa": "swIm"
       },
       {
         "word": "summer",
-        "audioFile": "ipa-samples/summer.mp3"
+        "audioFile": "ipa-samples/summer.mp3",
+        "ipa": "sʌmə"
+      },
+      {
+        "word": "family",
+        "audioFile": "ipa-samples/family.mp3",
+        "ipa": "fæməli:"
+      },
+      {
+        "word": "come",
+        "audioFile": "ipa-samples/come.mp3",
+        "ipa": "kʌm"
       }
     ],
     "guideImage": "ipa-guides/im42.webp"
@@ -1146,19 +1472,33 @@
     "words": [
       {
         "word": "new",
-        "audioFile": "ipa-samples/new.mp3"
+        "audioFile": "ipa-samples/new.mp3",
+        "ipa": "nu:"
       },
       {
         "word": "now",
-        "audioFile": "ipa-samples/now.mp3"
+        "audioFile": "ipa-samples/now.mp3",
+        "ipa": "naʊ"
       },
       {
         "word": "dinner",
-        "audioFile": "ipa-samples/dinner.mp3"
+        "audioFile": "ipa-samples/dinner.mp3",
+        "ipa": "dInə"
       },
       {
         "word": "know",
-        "audioFile": "ipa-samples/know.mp3"
+        "audioFile": "ipa-samples/know.mp3",
+        "ipa": "nəʊ"
+      },
+      {
+        "word": "sun",
+        "audioFile": "ipa-samples/sun.mp3",
+        "ipa": "sʌn"
+      },
+      {
+        "word": "ten",
+        "audioFile": "ipa-samples/ten.mp3",
+        "ipa": "ten"
       }
     ],
     "guideImage": "ipa-guides/im43.webp"
@@ -1170,19 +1510,33 @@
     "words": [
       {
         "word": "thanks",
-        "audioFile": "ipa-samples/thanks.mp3"
+        "audioFile": "ipa-samples/thanks.mp3",
+        "ipa": "θæŋks"
       },
       {
         "word": "evening",
-        "audioFile": "ipa-samples/evening.mp3"
+        "audioFile": "ipa-samples/evening.mp3",
+        "ipa": "i:vnIŋ"
       },
       {
         "word": "long",
-        "audioFile": "ipa-samples/long.mp3"
+        "audioFile": "ipa-samples/long.mp3",
+        "ipa": "lɒŋ"
       },
       {
         "word": "thing",
-        "audioFile": "ipa-samples/thing.mp3"
+        "audioFile": "ipa-samples/thing.mp3",
+        "ipa": "θIŋ"
+      },
+      {
+        "word": "king",
+        "audioFile": "ipa-samples/king.mp3",
+        "ipa": "kIŋ"
+      },
+      {
+        "word": "singing",
+        "audioFile": "ipa-samples/singing.mp3",
+        "ipa": "sIŋIŋ"
       }
     ],
     "guideImage": "ipa-guides/im44.webp"

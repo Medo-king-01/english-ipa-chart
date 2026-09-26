@@ -5,6 +5,8 @@
  * التغيير الجوهري: إزالة تكرار مصفوفات VOWEL_SYMBOLS / VOICED_CONSONANTS /
  * VOICELESS_CONSONANTS المحلية غير المستخدمة فعليًا في المنطق (كانت معرّفة
  * في الملف الأصلي دون أي استدعاء لها — كود ميت تم حذفه بالكامل هنا).
+ *
+ * الميزة الجديدة: أزواج مشهورة (Famous Pairs) جاهزة للمقارنة السريعة.
  */
 const ComparePage = (() => {
     const state = {
@@ -41,9 +43,75 @@ const ComparePage = (() => {
         state.compareData = compareData;
         state.descriptions = descriptions;
 
+        populateFamousPairs();
         populateSelectors();
         elements.select1.addEventListener('change', updateComparison);
         elements.select2.addEventListener('change', updateComparison);
+    }
+
+    /**
+     * أزواج مشهورة من أصوات متشابهة تسبب خلط للمتعلمين العرب.
+     * تُعرض كأزرار سريعة للمقارنة المباشرة.
+     */
+    function populateFamousPairs() {
+        const famousPairs = [
+            { s1: 'ɪ', s2: 'i:', label: 'ɪ vs i:' },
+            { s1: 'ʌ', s2: 'ɑ:', label: 'ʌ vs ɑ:' },
+            { s1: 'ɒ', s2: 'ɔ:', label: 'ɒ vs ɔ:' },
+            { s1: 'ə', s2: 'ɜ:', label: 'ə vs ɜ:' },
+            { s1: 'θ', s2: 'ð', label: 'θ vs ð' },
+            { s1: 'ʃ', s2: 'ʒ', label: 'ʃ vs ʒ' },
+            { s1: 'ʧ', s2: 'ʤ', label: 'ʧ vs ʤ' },
+            { s1: 'ɪə', s2: 'eə', label: 'ɪə vs eə' },
+            { s1: 'eɪ', s2: 'aɪ', label: 'eɪ vs aɪ' },
+            { s1: 'əʊ', s2: 'aʊ', label: 'əʊ vs aʊ' },
+            { s1: 'æ', s2: 'ʌ', label: 'æ vs ʌ' },
+            { s1: 'e', s2: 'ɪ', label: 'e vs ɪ' },
+        ];
+
+        // إنشاء حاوية الأزواج المشهورة إذا لم تكن موجودة
+        let pairsContainer = document.getElementById('famousPairs');
+        if (!pairsContainer) {
+            pairsContainer = document.createElement('div');
+            pairsContainer.id = 'famousPairs';
+            pairsContainer.className = 'famous-pairs-container';
+            
+            const title = document.createElement('h3');
+            title.className = 'famous-pairs-title';
+            title.textContent = '⚡ أزواج مشهورة (Minimal Pairs)';
+            title.setAttribute('dir', 'rtl');
+            pairsContainer.appendChild(title);
+
+            const grid = document.createElement('div');
+            grid.className = 'famous-pairs-grid';
+            grid.id = 'famousPairsGrid';
+            pairsContainer.appendChild(grid);
+
+            // إدراج الحاوية قبل حاوية المقارنة
+            elements.container.parentNode.insertBefore(pairsContainer, elements.container);
+        }
+
+        const grid = document.getElementById('famousPairsGrid');
+        grid.innerHTML = '';
+
+        famousPairs.forEach((pair) => {
+            // تحقق من وجود الصوتين في البيانات
+            const sound1 = state.sounds.find((s) => s.symbol === pair.s1);
+            const sound2 = state.sounds.find((s) => s.symbol === pair.s2);
+            if (!sound1 || !sound2) return;
+
+            const btn = document.createElement('button');
+            btn.className = 'famous-pair-btn';
+            btn.innerHTML = `<span>${pair.label}</span>`;
+            btn.addEventListener('click', () => {
+                elements.select1.value = pair.s1;
+                elements.select2.value = pair.s2;
+                updateComparison();
+                // التمرير إلى منطقة المقارنة
+                elements.container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+            grid.appendChild(btn);
+        });
     }
 
     function populateSelectors() {

@@ -371,6 +371,41 @@ main {
     font-weight: 500;
 }
 
+/* ===== Learning Path Tabs ===== */
+.level-tabs {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.level-tab {
+    background: var(--color-card);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    transition: all 0.3s ease;
+}
+
+.level-tab:hover {
+    border-color: var(--color-accent);
+    color: var(--color-text);
+}
+
+.level-tab.active {
+    background: var(--color-accent);
+    color: #fff;
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 12px rgba(216, 27, 63, 0.25);
+}
+
 /* ===== أزرار التصفية المحسّنة ===== */
 .filter-btn {
     background: var(--color-card);

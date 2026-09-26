@@ -6,6 +6,7 @@
     <title>مخطط IPA التفاعلي - الرئيسية</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/practice.css">
 
 </head>
 <body>
@@ -24,6 +25,7 @@
                 <li><a href="index.html" class="active">الرئيسية</a></li>
                 <li><a href="alphabet.html">الأبجدية</a></li>
                 <li><a href="compare.html">المقارنة</a></li>
+                <li><a href="practice.html">الممارسة</a></li>
                 <li>
                     <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي">🌙</button>
                 </li>
@@ -53,6 +55,13 @@
         </div>
 
         <div class="content-ltr" dir="ltr">
+            <!-- Learning Path Tabs -->
+            <div class="level-tabs" id="levelTabs">
+                <button class="level-tab active" data-level="all">الكل</button>
+                <button class="level-tab" data-level="beginner">🌱 مبتدئ</button>
+                <button class="level-tab" data-level="intermediate">📈 متوسط</button>
+                <button class="level-tab" data-level="advanced">🎯 متقدم</button>
+            </div>
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="vowels">Vowels</button>
@@ -86,6 +95,7 @@
     <script src="js/theme-service.js"></script>
     <script src="js/sound-card-factory.js"></script>
     <script src="js/particles.js"></script>
+    <script src="js/learning-path.js"></script>
     <script src="js/home-page.js"></script>
 </body>
 </html>

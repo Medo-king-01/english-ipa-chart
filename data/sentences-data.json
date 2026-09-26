@@ -1,0 +1,178 @@
+{
+  "i:": {
+    "text": "Please eat three green peas.",
+    "audioFile": "sentences/i_.mp3"
+  },
+  "I": {
+    "text": "He didn't sit with the big fish.",
+    "audioFile": "sentences/I.mp3"
+  },
+  "u:": {
+    "text": "You can see the full moon soon.",
+    "audioFile": "sentences/u_.mp3"
+  },
+  "u": {
+    "text": "She took a good look at the book.",
+    "audioFile": "sentences/u.mp3"
+  },
+  "ə": {
+    "text": "A banana grows in Africa.",
+    "audioFile": "sentences/ə.mp3"
+  },
+  "ɜː": {
+    "text": "The bird learned to work early.",
+    "audioFile": "sentences/ɜ.mp3"
+  },
+  "ɔ:": {
+    "text": "All four boys saw the tall door.",
+    "audioFile": "sentences/ɔ_.mp3"
+  },
+  "e": {
+    "text": "Ten men went to bed together.",
+    "audioFile": "sentences/e.mp3"
+  },
+  "eə": {
+    "text": "There is a chair over there.",
+    "audioFile": "sentences/eə.mp3"
+  },
+  "ʌ": {
+    "text": "My mother loves summer fun.",
+    "audioFile": "sentences/ʌ.mp3"
+  },
+  "ɒ": {
+    "text": "The dog sat on a hot box.",
+    "audioFile": "sentences/ɒ.mp3"
+  },
+  "æ": {
+    "text": "That cat had a black hat.",
+    "audioFile": "sentences/æ.mp3"
+  },
+  "ɑ:": {
+    "text": "Dad can park the car far away.",
+    "audioFile": "sentences/ɑ_.mp3"
+  },
+  "ɪə": {
+    "text": "Here, my dear, have a clear beer.",
+    "audioFile": "sentences/ɪə.mp3"
+  },
+  "eɪ": {
+    "text": "They came to play on the train.",
+    "audioFile": "sentences/eɪ.mp3"
+  },
+  "aʊ": {
+    "text": "The cow knows how to shout now.",
+    "audioFile": "sentences/aʊ.mp3"
+  },
+  "əʊ": {
+    "text": "Let's go and know the old home.",
+    "audioFile": "sentences/əʊ.mp3"
+  },
+  "aɪ": {
+    "text": "I like to fly high at night.",
+    "audioFile": "sentences/aɪ.mp3"
+  },
+  "ʊə": {
+    "text": "Sure, you can tour the poor pure cure.",
+    "audioFile": "sentences/ʊə.mp3"
+  },
+  "ɔɪ": {
+    "text": "The boy enjoyed the coin noise.",
+    "audioFile": "sentences/ɔɪ.mp3"
+  },
+  "f": {
+    "text": "My father feels fine after coffee.",
+    "audioFile": "sentences/f.mp3"
+  },
+  "v": {
+    "text": "We have very good service over here.",
+    "audioFile": "sentences/v.mp3"
+  },
+  "θ": {
+    "text": "I think both brothers are healthy.",
+    "audioFile": "sentences/θ.mp3"
+  },
+  "ð": {
+    "text": "This and that go together.",
+    "audioFile": "sentences/ð.mp3"
+  },
+  "s": {
+    "text": "She sells six soft sea shells.",
+    "audioFile": "sentences/s.mp3"
+  },
+  "z": {
+    "text": "His zero was easy buzzing bees.",
+    "audioFile": "sentences/z.mp3"
+  },
+  "ʃ": {
+    "text": "She should share fresh fish.",
+    "audioFile": "sentences/ʃ.mp3"
+  },
+  "ʒ": {
+    "text": "The television gave us real pleasure.",
+    "audioFile": "sentences/ʒ.mp3"
+  },
+  "h": {
+    "text": "He had a happy house.",
+    "audioFile": "sentences/h.mp3"
+  },
+  "p": {
+    "text": "My people are very happy.",
+    "audioFile": "sentences/p.mp3"
+  },
+  "b": {
+    "text": "Bob brought a big black bag.",
+    "audioFile": "sentences/b.mp3"
+  },
+  "t": {
+    "text": "We wanted better water today.",
+    "audioFile": "sentences/t.mp3"
+  },
+  "d": {
+    "text": "David's door opened wide.",
+    "audioFile": "sentences/d.mp3"
+  },
+  "k": {
+    "text": "Kate called a black cat.",
+    "audioFile": "sentences/k.mp3"
+  },
+  "g": {
+    "text": "Go and get a big glass of gold.",
+    "audioFile": "sentences/g.mp3"
+  },
+  "ʧ": {
+    "text": "The child chose to watch TV.",
+    "audioFile": "sentences/ʧ.mp3"
+  },
+  "ʤ": {
+    "text": "Jane would enjoy a large orange juice.",
+    "audioFile": "sentences/ʤ.mp3"
+  },
+  "w": {
+    "text": "We were walking in the warm wind.",
+    "audioFile": "sentences/w.mp3"
+  },
+  "r": {
+    "text": "Please bring my red rose here.",
+    "audioFile": "sentences/r.mp3"
+  },
+  "j": {
+    "text": "Did you see the yellow year?",
+    "audioFile": "sentences/j.mp3"
+  },
+  "l": {
+    "text": "A little cloud fell on the ball.",
+    "audioFile": "sentences/l.mp3"
+  },
+  "m": {
+    "text": "My mother made some lemon summer jam.",
+    "audioFile": "sentences/m.mp3"
+  },
+  "n": {
+    "text": "I don't know the way to the sun.",
+    "audioFile": "sentences/n.mp3"
+  },
+  "ŋ": {
+    "text": "Sing a long song about a king.",
+    "audioFile": "sentences/ŋ.mp3"
+  }
+}

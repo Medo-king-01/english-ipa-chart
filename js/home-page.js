@@ -298,6 +298,7 @@ const HomePage = (() => {
     };
 
     let elements = {};
+    let currentLevel = 'all';
 
     function cacheElements() {
         elements = {
@@ -308,6 +309,7 @@ const HomePage = (() => {
             header: document.getElementById('mainHeader'),
             searchInput: document.getElementById('searchInput'),
             practiceBtn: document.getElementById('practiceBtn'),
+            levelTabs: document.getElementById('levelTabs'),
         };
     }
 
@@ -319,10 +321,11 @@ const HomePage = (() => {
         elements.container.innerHTML =
             '<div class="empty-state"><div class="skeleton" style="height:200px;width:100%;"></div></div>';
 
-        const [sounds, wordsMap, descriptions] = await DataService.loadMany([
+        const [sounds, wordsMap, descriptions, sentences] = await DataService.loadMany([
             CONFIG.paths.ipaData,
             CONFIG.paths.ipaWords,
             CONFIG.paths.ipaDescriptions,
+            CONFIG.paths.sentencesData,
         ]);
 
         if (!sounds || sounds.length === 0) {
@@ -334,6 +337,7 @@ const HomePage = (() => {
         state.sounds = sounds;
         state.wordsMap = wordsMap || {};
         state.descriptions = descriptions || {};
+        state.sentences = sentences || {};
 
         renderGrid();
         updateStats();
@@ -341,12 +345,41 @@ const HomePage = (() => {
         bindGridClicks();
         bindSearch();
         bindCategoryFilter();
+        bindLevelTabs();
         bind3DTilt();
         bindScrollHeader();
         bindKeyboardNavigation();
         bindPracticeMode();
         bindModalClose();
         bindGlobalShortcuts();
+    }
+
+    // ===== Learning Path Filter =====
+    function bindLevelTabs() {
+        if (!elements.levelTabs) return;
+
+        elements.levelTabs.querySelectorAll('.level-tab').forEach((tab) => {
+            tab.addEventListener('click', () => {
+                elements.levelTabs.querySelectorAll('.level-tab').forEach((t) => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentLevel = tab.dataset.level;
+                filterByLevel(currentLevel);
+            });
+        });
+    }
+
+    function filterByLevel(level) {
+        elements.container.querySelectorAll('.sound-card').forEach((card) => {
+            if (level === 'all') {
+                card.classList.remove('is-hidden');
+                return;
+            }
+
+            const symbol = card.dataset.symbol;
+            const path = LearningPath.LEARNING_PATHS[level];
+            const isVisible = path && path.symbols.includes(symbol);
+            card.classList.toggle('is-hidden', !isVisible);
+        });
     }
 
     function renderGrid() {
@@ -423,11 +456,23 @@ const HomePage = (() => {
                                 (w) => `
                             <div class="modal-word-item" data-audio="${resolveAudioPath(w.audioFile)}">
                                 <span class="modal-word-text">${w.word}</span>
+                                ${w.ipa ? `<span class="modal-word-ipa" dir="ltr">/${w.ipa}/</span>` : ''}
                                 <button class="modal-word-play" aria-label="تشغيل ${w.word}">▶</button>
                             </div>`
                             )
                             .join('')}
                     </div>
+                </div>`
+            : '';
+
+        // ===== قسم الجملة =====
+        const sentence = state.sentences[sound.symbol];
+        const sentenceHtml = sentence
+            ? `
+                <div class="modal-sentence-section" dir="rtl">
+                    <h3>💬 جملة للتدريب</h3>
+                    <p class="modal-sentence-text">${sentence.text}</p>
+                    <button class="modal-sentence-play" data-audio="${resolveAudioPath(sentence.audioFile)}">▶ استمع للجملة</button>
                 </div>`
             : '';
 
@@ -464,6 +509,7 @@ const HomePage = (() => {
             </div>
             ${spellingsHtml}
             ${wordsHtml}
+            ${sentenceHtml}
         `;
 
         showModal();
@@ -586,10 +632,21 @@ const HomePage = (() => {
 
                 elements.container.querySelectorAll('.sound-card').forEach((card, i) => {
                     const symbol = card.dataset.symbol;
-                    const isVisible =
-                        filter === 'all' ||
-                        (filter === 'vowels' && vowels.includes(symbol)) ||
-                        (filter === 'consonants' && consonants.includes(symbol));
+                    let isVisible = true;
+                    
+                    // Apply level filter first
+                    if (currentLevel !== 'all') {
+                        const path = LearningPath.LEARNING_PATHS[currentLevel];
+                        isVisible = path && path.symbols.includes(symbol);
+                    }
+                    
+                    // Apply category filter
+                    if (isVisible) {
+                        isVisible =
+                            filter === 'all' ||
+                            (filter === 'vowels' && vowels.includes(symbol)) ||
+                            (filter === 'consonants' && consonants.includes(symbol));
+                    }
 
                     card.classList.toggle('is-hidden', !isVisible);
                     if (isVisible) {
